@@ -10,7 +10,7 @@ const paths = require('./paths');
 
 
 function watchDev(){
-    watch(paths.srcSass+'/**/*.sass', series(cssDevTask, reload));
+    watch([paths.srcSass+'/**/*.sass', paths.srcSass+'/**/*.scss'], series(cssDevTask, reload));
     //watch(paths.srcPug+'/**/*.pug', series(htmlDevTask, insertHashedCss, reload));
     //watch(['./**/*.php', './**/*.html'], reload);
     watch(paths.srcFonts+'/*.*', series(fontsDevTask, reload));

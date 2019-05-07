@@ -17,7 +17,7 @@ function cleanCss(cb) {
 
 // compile SASS to CSS and paste into dev folder
 function cssDev(){
-	return src(['./src/sass/**/*.sass', './src/sass/**/*.scss'])
+	return src('./src/sass/main.sass')
 		.pipe(sourcemaps.init({largeFile: true}))
 		.pipe(sass().on('error', sass.logError))
 		.pipe(autoprefixer({
