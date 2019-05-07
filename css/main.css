@@ -8294,9 +8294,6 @@ li {
   padding: 0;
   list-style: none; }
 
-a {
-  color: blue; }
-
 .header-bg {
   background: url(../images/header-bg.jpg) top left repeat-x; }
 
@@ -8340,6 +8337,13 @@ a {
 
 .dropdown > .dropdown-toggle:active {
   pointer-events: none; }
+
+a {
+  color: blue; }
+
+@media (max-width: 575.98px) {
+  .header-bg {
+    min-height: 150px; } }
 
 @media (max-width: 767.98px) {
   #navbarNavDropdown {

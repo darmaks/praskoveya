@@ -1,0 +1,46 @@
+.header-bg
+    background: url(../images/header-bg.jpg) top left repeat-x
+.logo
+    display: block
+
+.navbar
+    font-family: $accent-font
+    margin-top: 90px
+    text-align: right
+    font-size: 24px
+    .navbar-toggler-icon
+        color: #fff
+    #navbarNavDropdown
+        .nav-link
+            color: #fff
+            margin: 0
+            padding-bottom: 26px
+            padding-left: 15px
+            padding-right: 15px
+        .nav-item
+            &:hover
+                .nav-link
+                    background-color: #393939
+            & > .dropdown-menu
+                margin: 0
+                padding: 0
+                font-family: $base-font
+                background-color: #393939
+                color: #fff
+                border: none
+                border-radius: 0
+                .dropdown-item
+                    color: #fff
+                    padding: 5px 5px 5px 15px
+                    font-size: 16px
+                    line-height: 220%
+                    &:hover
+                        color: #fff
+                        background-color: #222
+        
+
+.dropdown:hover > .dropdown-menu
+    display: block
+    
+.dropdown > .dropdown-toggle:active
+    pointer-events: none

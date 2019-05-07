@@ -7,6 +7,8 @@
 <body>
     <?php include("includes/main.php") ?>
 
+
+    <?php include("includes/footer.php") ?>
     <?php include("includes/footer_scripts.php") ?>
 </body>
 </html>
