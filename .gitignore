@@ -1,8 +1,8 @@
 node_modules
 tasks/_locals.js
-src/tmp
+src/tmp/
 css/*.css
-fonts
-images
-js
-*.json
+fonts/
+images/
+js/
+package-lock.json
