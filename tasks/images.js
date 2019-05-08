@@ -3,8 +3,8 @@ const image = require('gulp-image');
 const paths = require('./paths');
 
 function imagesDev(){
-	return src(paths.srcImages + '/*.*')
-		.pipe(dest(paths.devDir + paths.staticDir + '/images'));
+	return src(paths.srcImages + '/**/*.*')
+		.pipe(dest(paths.devDir + paths.staticDir + '/img'));
 }
 
 function svgDev(){
@@ -15,7 +15,7 @@ function svgDev(){
 function imagesBuild(){
 	return src(paths.srcImages + '/*.*')
 		.pipe(image())
-		.pipe(dest(paths.buildDir + paths.staticDir + '/images'));
+		.pipe(dest(paths.buildDir + paths.staticDir + '/img'));
 }
 
 function svgBuild(){

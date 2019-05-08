@@ -3,7 +3,7 @@
 		<div class="row justify-content-between">
 			<div class="d-none d-sm-block col-sm-4 col-md-3 col-lg-3">
 				<a href="" class="logo">
-					<img class="img-fluid" src="images/logo.png" alt="">
+					<img class="img-fluid" src="img/logo.png" alt="">
 				</a>
 			</div>
 			<div class="col-12 col-sm-8 col-md-9 col-lg-8 main-menu">

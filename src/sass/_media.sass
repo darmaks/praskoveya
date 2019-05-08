@@ -1,4 +1,5 @@
 @include media-breakpoint-down(xs)
+    // xs: 0
     .header-bg
         background: $second-color
     .main-menu
@@ -8,24 +9,35 @@
 
 
 @include media-breakpoint-down(sm)
+    // sm: 576px
     #navbarNavDropdown
         background-color: #393939
     .main-menu
         padding: 0
         .navbar
             padding: 15px  0
+    .awards-slice
+        flex-direction: column
+        align-items: center
+    .awards_column
+        &:before
+            display: none
 
 
 @include media-breakpoint-down(md)
+    // md: 768px
     .navbar
         margin-top: 72px
         font-size: 18px
+    .awards
+        padding: 0
 
 
 @include media-breakpoint-down(lg)
+    // lg: 1024px
     #navbarNavDropdown
         background-color: none
 
 
 @include media-breakpoint-down(xl)
-    // 132
+    // 123
