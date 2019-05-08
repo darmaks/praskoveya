@@ -1,11 +1,19 @@
 @include media-breakpoint-down(xs)
     .header-bg
-        min-height: 150px
+        background: $second-color
+    .main-menu
+        .navbar
+            margin-top: 0
+
 
 
 @include media-breakpoint-down(sm)
     #navbarNavDropdown
         background-color: #393939
+    .main-menu
+        padding: 0
+        .navbar
+            padding: 15px  0
 
 
 @include media-breakpoint-down(md)
