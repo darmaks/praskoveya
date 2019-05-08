@@ -21,25 +21,46 @@
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>" href="#">О компании</a>
-								<div class="dropdown-menu dropdown-menu-right">
-									<a class="dropdown-item" href="#">Производства</a>
-									<a class="dropdown-item" href="#">Розничная сеть</a>
-									<a class="dropdown-item" href="#">Музей виноделия</a>
-									<a class="dropdown-item" href="#">Акционерам</a>
-								</div>
+								<ul class="dropdown-menu dropdown-menu-left">
+									<li><a class="dropdown-item" href="#">Производства</a></li>
+									<li><a class="dropdown-item" href="#">Розничная сеть</a></li>
+									<li><a class="dropdown-item" href="#">Музей виноделия</a></li>
+									<li class="dropdown-submenu">
+										<a class="dropdown-item" href="#">Акционерам</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">АО «Прасковейское»</a></li>
+											<li><a class="dropdown-item" href="#">АО «ТП Прасковейское»</a></li>
+										</ul>
+									</li>
+								</ul>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>" href="#">Продукция</a>
-								<div class="dropdown-menu dropdown-menu-right">
-									<a class="dropdown-item" href="#">Вина</a>
-									<a class="dropdown-item" href="#">Коньяки</a>
-									<a class="dropdown-item" href="#">Крепкие напитки</a>
-								</div>
+								<ul class="dropdown-menu dropdown-menu-left">
+									<li  class="dropdown-submenu">
+										<a class="dropdown-item" href="#">Вина</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Белые</a></li>
+											<li><a class="dropdown-item" href="#">Розовые</a></li>
+											<li><a class="dropdown-item" href="#">Красные</a></li>
+											<li><a class="dropdown-item" href="#">Игристые</a></li>
+											<li><a class="dropdown-item" href="#">Коллекционные</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu">
+										<a class="dropdown-item" href="#">Коньяки</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Ординарные</a></li>
+											<li><a class="dropdown-item" href="#">Марочные</a></li>
+										</ul>
+									</li>
+									<li><a class="dropdown-item" href="#">Крепкие напитки</a></li>
+								</ul>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>" href="#">Контакты</a>
 								<div class="dropdown-menu dropdown-menu-right">
-									<a class="dropdown-item" href="#">Алрес</a>
+									<a class="dropdown-item" href="#">Адрес</a>
 									<a class="dropdown-item" href="#">Обратная связь</a>
 								</div>
 							</li>

@@ -12,6 +12,7 @@
     // sm: 576px
     #navbarNavDropdown
         background-color: #393939
+        margin-top: 10px
     .main-menu
         padding: 0
         .navbar
@@ -22,15 +23,43 @@
     .awards_column
         &:before
             display: none
+    .navbar
+        text-align: center
+        font-size: 24px
+        .nav-item
+            border-bottom: 1px solid darken(#393939, 5%)
+        .nav-link
+            padding-bottom: 15px 
+            padding-top: 15px
+        .dropdown-menu
+            text-align: center
 
 
 @include media-breakpoint-down(md)
     // md: 768px
     .navbar
         margin-top: 72px
-        font-size: 18px
+        font-size: 20px
     .awards
         padding: 0
+    .navbar-nav
+        & > .nav-item
+            background: none
+    #navbarNavDropdown
+        margin-top: 23px
+    .sub-header
+        margin-top: -40px
+    .intro
+        padding: 0 15px
+    .primary
+        h3
+            padding-left: 15px
+            padding-top: 20px
+            padding-bottom: 20px
+        .full-image-slice
+            padding: 15px
+        .article-info-wrapper
+            padding-left: 15px
 
 
 @include media-breakpoint-down(lg)
@@ -41,3 +70,13 @@
 
 @include media-breakpoint-down(xl)
     // 123
+
+
+@include media-breakpoint-only(xs)
+    .sub-header
+        margin-top: 0px
+        height: 150px
+        h1
+            font-size: 30px
+            margin-left: 15px
+            margin-top: 0

@@ -2,6 +2,7 @@
     background: url(../img/header-bg.jpg) top left repeat-x
 .logo
     display: block
+    padding-left: 21px
 
 .navbar
     font-family: $accent-font
@@ -10,37 +11,62 @@
     font-size: 24px
     .navbar-toggler-icon
         color: #fff
-    #navbarNavDropdown
-        .nav-link
-            color: #fff
+
+    .nav-link
+        color: #fff
+        margin: 0
+        padding-bottom: 26px
+    .nav-item
+        &:hover
+            .nav-link
+                background-color: #393939
+        & > .dropdown-menu
             margin: 0
-            padding-bottom: 26px
+            padding: 0
+            font-family: $base-font
+            background-color: #393939
+            color: #fff
+            border: none
+            border-radius: 0
+            .dropdown-item
+                color: #fff
+                padding: 5px 5px 5px 15px
+                font-size: 16px
+                line-height: 220%
+                &:hover
+                    color: #fff
+                    background-color: #222
+
+.navbar-expand-md
+    .navbar-nav
+        .nav-link
             padding-left: 15px
             padding-right: 15px
-        .nav-item
-            &:hover
-                .nav-link
-                    background-color: #393939
-            & > .dropdown-menu
-                margin: 0
-                padding: 0
-                font-family: $base-font
-                background-color: #393939
-                color: #fff
-                border: none
-                border-radius: 0
-                .dropdown-item
-                    color: #fff
-                    padding: 5px 5px 5px 15px
-                    font-size: 16px
-                    line-height: 220%
-                    &:hover
-                        color: #fff
-                        background-color: #222
-        
+
+.navbar-nav
+    & > .nav-item
+        background: url(../img/menu-separator.png) left 14px no-repeat
+    & > .nav-item:first-child
+        background: none      
 
 .dropdown:hover > .dropdown-menu
     display: block
     
 .dropdown > .dropdown-toggle:active
     pointer-events: none
+
+.dropdown-submenu:hover>.dropdown-menu
+    display: block
+    background-color: #393939
+    border: none
+    border-radius: 0
+    padding: 0
+    margin: 0
+    color: #fff 
+
+.dropdown-submenu
+    position: relative
+
+.dropdown-submenu>.dropdown-menu
+    top: 0
+    left: 100%
