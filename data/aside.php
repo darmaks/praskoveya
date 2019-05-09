@@ -39,11 +39,11 @@ $novelties_3 = '<div class="aside-slice newest-item">
 
 $novelties_4 = '<div class="aside-slice newest-item">
                     <p class="newest-title">
-                        Новое оформление <a href="/products/cognac/ordn/">Коньяк пятилетний «Пять звездочек»</a>
+                        Новое оформление <a href="/products/cognac/ordin/">Коньяк пятилетний «Пять звездочек»</a>
                         <span class="aside-arrow"></span>
                     </p>
                     <p class="newest-image">
-                        <a href="/products/cognac/ordn/">
+                        <a href="/products/cognac/ordin/">
                             <img src="/img/aside/aside-new-products-13.jpg" alt="" />
                         </a>
                     </p>
@@ -51,11 +51,11 @@ $novelties_4 = '<div class="aside-slice newest-item">
 
 $novelties_5 = '<div class="aside-slice newest-item">
                     <p class="newest-title">
-                        Новое оформление <a href="/products/cognac/ordn/">Коньяк трехлетний «Три звездочки»</a>
+                        Новое оформление <a href="/products/cognac/ordin/">Коньяк трехлетний «Три звездочки»</a>
                         <span class="aside-arrow"></span>
                     </p>
                     <p class="newest-image">
-                        <a href="/products/cognac/ordn/">
+                        <a href="/products/cognac/ordin/">
                             <img src="/img/aside/aside-new-products-14.jpg" alt="" />
                         </a>
                     </p>

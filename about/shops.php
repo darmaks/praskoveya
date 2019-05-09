@@ -1,0 +1,248 @@
+<?php include("../includes/a_config.php");?>
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <?php include("../includes/head.php");?>
+   </head>
+   <body class="about_shops">
+      <?php include("../includes/navigation.php") ?>
+      <!-- <h3><?php print $CURRENT_PAGE;?></h3> -->
+      <div class="container">
+         <div class="row">
+            <div class="sub-header">
+               <h1>О компании</h1>
+               <p class="h1-description">					
+               вековой опыт производства
+               </p>
+            </div>
+         </div>
+      </div>
+      <section class="content">
+         <div class="container">
+         <div class="row no-gutters">
+            <div class="col-lg-9">
+               <article class="intro">
+                  <h2 class="article-heading">Фирменные магазины</h2>
+                  <p class="article-content">Полный ассортимент продукции представлен в специализированных фирменных магазинах.</p>
+                 
+               </article>
+               
+               <section class="primary">
+               <div class="header-block-h3">
+                        <h3>Регион</h3>
+                        <div id="input-select-styler" class="jq-selectbox jqselect select-shops-region changed" style="display: inline-block; position: relative; z-index:100"><select name="region" id="input-select" class="select-shops-region" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                           <option value="r77">Москва</option>
+                           <option value="r50">Московская область </option>
+                           <option value="r52">Нижегородская область </option>
+                           <option value="r61">Ростовская область </option>
+                           <option value="r26">Ставропольский край</option>
+                        </select><div class="jq-selectbox__select" style="position: relative"><div class="jq-selectbox__select-text" style="width: 142px;">Ставропольский край</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="position: absolute; display: none;"><ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden"><li style="">Москва</li><li style="">Московская область </li><li style="">Нижегородская область </li><li style="">Ростовская область </li><li class="selected sel" style="">Ставропольский край</li></ul></div></div>
+                     </div>
+               </section> 
+               <div id="r26" class="group_shop_region" style="">
+                        <div class="shop-slice-new">
+                           <h4>Буденновск</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Ленинская, д. 60</span></td>
+                                    <td>+7 (909) 755-59-88</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Борцов революции, д. 168</span></td>
+                                    <td>+7 (86559) 2-13-71</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>пр-т. Космонавтов, д. 8в</span></td>
+                                    <td>+7 (86559) 2-22-13</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Мира, д. 117</span></td>
+                                    <td>+7 (86559) 3-73-71</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Ессентуки</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Кисловодская, д. 20а</span></td>
+                                    <td>+7 (87934) 7-33-87</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Октябрьская, д. 435</span></td>
+                                    <td>+7 (87934) 2-20-43</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Железноводск</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Ленина, д. 140</span></td>
+                                    <td>+7 (87932) 4-99-84</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Чайковского, д. 6</span></td>
+                                    <td>+7 (87932) 4-25-03</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Чайковского, д. 4</span></td>
+                                    <td>+7 (87932) 3-30-38</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Кисловодск</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Горького, д. 24</span></td>
+                                    <td>+7 (87937) 2-79-22</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Азербайджанская, д. 21</span></td>
+                                    <td>+7 (87937) 7-15-45</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Вокзальная, д. 17</span></td>
+                                    <td>+7 (87937) 2-20-45</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Лермонтов</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>пр-т. Лермонтовский, д. 7, корп. 1</span></td>
+                                    <td>+7 (905) 465-05-35</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Минеральные Воды</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>пр-т. 22 Партсъезда, д. 72</span></td>
+                                    <td>+7 (87922) 6-36-64</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>пр-т. 22 Партсъезда, д. 8</span></td>
+                                    <td>+7 (87922) 6-56-67</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Михайловск</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Гоголя, д. 38/1</span></td>
+                                    <td>+7 (862) 408-03-22</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Ленина, д. 102</span></td>
+                                    <td>+7 (988) 116-88-41</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Невинномысск</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Калинина, д. 161А</span></td>
+                                    <td>+7 (906) 491-90-79</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Гагарина, д. 55</span></td>
+                                    <td>+7 (86554) 3-35-06</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>c. Прасковея</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Ленина, д. 11</span></td>
+                                    <td>+7 (86559) 7-70-97</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Пятигорск</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Московская, д. 94, кор. 1</span></td>
+                                    <td>+7 (8793) 32-32-49</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>пр-т. Ленина, д. 13</span></td>
+                                    <td>+7 (8793) 36-35-45</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>пр-т. Калинина, д. 92</span></td>
+                                    <td>+7 (8793) 30-36-20</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Красноармейская, д. 6</span></td>
+                                    <td>+7 (8793) 39-18-33</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                        <div class="shop-slice-new">
+                           <h4>Ставрополь</h4>
+                           <div class="shops-info">
+                              <table>
+                                 <tbody><tr>
+                                    <td><span>ул. Ленина, д. 192</span></td>
+                                    <td>+7 (8652) 29-21-82</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Пирогова, д. 15</span></td>
+                                    <td>+7 (8652) 55-25-50</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>пр-т. Юности, д. 26а</span></td>
+                                    <td>+7 (8652) 39-74-93</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. 50 лет ВЛКСМ, д. 2/7</span></td>
+                                    <td>+7 (8652) 94-47-85</td>
+                                 </tr>
+                                 <tr>
+                                    <td><span>ул. Советская, д. 16/1</span></td>
+                                    <td>+7 (8652) 94-01-64</td>
+                                 </tr>
+                              </tbody></table>
+                           </div>
+                        </div>
+                     </div>             
+               </div>
+               <div class="col-lg-3">
+                  <?php include($_SERVER["DOCUMENT_ROOT"].'/data/aside.php'); ?>
+               </div>
+            </div>
+         </div>
+      </section>
+      <?php include("../includes/footer.php") ?>
+      <?php include("../includes/footer_scripts.php") ?>
+   </body>
+</html>
+
