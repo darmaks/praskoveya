@@ -1,11 +1,11 @@
-<?php include("../../includes/a_config.php");?>
+<?php include("../../../includes/a_config.php");?>
 <!DOCTYPE html>
 <html lang="ru">
    <head>
-      <?php include("../../includes/head.php");?>
+      <?php include("../../../includes/head.php");?>
    </head>
-   <body class="produсts">
-      <?php include("../../includes/navigation.php") ?>
+   <body class="products">
+      <?php include("../../../includes/navigation.php") ?>
       <!-- <h3><?php print $CURRENT_PAGE;?></h3> -->
       <div class="container">
          <div class="row">
@@ -121,8 +121,14 @@
 						<p>Коньяк ОС «Прасковейский Премиум» - венец творчества прасковейских мастеров. Приготовлен по классической технологии из коньячных дистиллято, выдержанных в дубовых бочках более 40 лет. Процесс создания коньяка имеет свои неповторимые черты и способствует достижению гармонии напитка. «Прасковейский Премиум» по праву считается коньяком высшего класса для истинных гурманов. Это и подарок, способный удивить самого искушенного знатока, и украшение стола.</p>	
 						<p class="product-parameters">0,7 л./40% об.</p>
 						</div>
+						<div class="raiting"><?php echo rating_bar('premium',5); ?></div>
 					</div>
-						<div class="raiting"><div class="ratingblock"><div id="unit_longpremium">  <ul id="unit_ulpremium" class="unit-rating" style="width:100px;">     <li class="current-rating" style="width:81px;">Текущее 4.05/5</li><li><a href="/db.php?j=1&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="1 из 5" class="r1-unit rater" rel="nofollow">1</a></li><li><a href="/db.php?j=2&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="2 из 5" class="r2-unit rater" rel="nofollow">2</a></li><li><a href="/db.php?j=3&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="3 из 5" class="r3-unit rater" rel="nofollow">3</a></li><li><a href="/db.php?j=4&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="4 из 5" class="r4-unit rater" rel="nofollow">4</a></li><li><a href="/db.php?j=5&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="5 из 5" class="r5-unit rater" rel="nofollow">5</a></li>  </ul>  <p style="text-align: left; margin:0;">Рейтинг: <strong> 4.1</strong>/5 (голосов: 39)  </p></div></div></div>
+						<div class="raiting"><div class="ratingblock"><div id="unit_longpremium"> 
+							 <ul id="unit_ulpremium" class="unit-rating" style="width:100px;">   
+								<li class="current-rating" style="width:81px;">Текущее 4.05/5</li><li><a href="/db.php?j=1&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="1 из 5" class="r1-unit rater" rel="nofollow">1</a>
+							</li><
+								li><a href="/db.php?j=2&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="2 из 5" class="r2-unit rater" rel="nofollow">2</a></li><li><a href="/db.php?j=3&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="3 из 5" class="r3-unit rater" rel="nofollow">3</a></li><li><a href="/db.php?j=4&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="4 из 5" class="r4-unit rater" rel="nofollow">4</a></li><li><a href="/db.php?j=5&amp;q=premium&amp;t=31.31.31.58&amp;c=5" title="5 из 5" class="r5-unit rater" rel="nofollow">5</a>
+							</li>  </ul>  <p style="text-align: left; margin:0;">Рейтинг: <strong> 4.1</strong>/5 (голосов: 39)  </p></div></div></div>
 					</div>
                   </section>
                   
@@ -134,8 +140,8 @@
             </div>
          </div>
       </section>
-      <?php include("../../includes/footer.php") ?>
-      <?php include("../../includes/footer_scripts.php") ?>
+      <?php include("../../../includes/footer.php") ?>
+      <?php include("../../../includes/footer_scripts.php") ?>
    </body>
 </html>
 

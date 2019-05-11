@@ -1,11 +1,11 @@
-<?php include("../../includes/a_config.php");?>
+<?php include("../../../includes/a_config.php");?>
 <!DOCTYPE html>
 <html lang="ru">
    <head>
-      <?php include("../../includes/head.php");?>
+      <?php include("../../../includes/head.php");?>
    </head>
-   <body class="produсts">
-      <?php include("../../includes/navigation.php") ?>
+   <body class="products">
+      <?php include("../../../includes/navigation.php") ?>
       <!-- <h3><?php print $CURRENT_PAGE;?></h3> -->
       <div class="container">
          <div class="row">
@@ -385,13 +385,13 @@
                   </section>
                </div>
                <div class="col-lg-3">
-                  <?php include($_SERVER["DOCUMENT_ROOT"].'../data/aside.php'); ?>
+                  <?php include($_SERVER["DOCUMENT_ROOT"].'/data/aside.php'); ?>
                </div>
             </div>
          </div>
       </section>
-      <?php include("../../includes/footer.php") ?>
-      <?php include("../../includes/footer_scripts.php") ?>
+       <?php include("../../../includes/footer.php") ?>
+       <?php include("../../../includes/footer_scripts.php") ?> 
    </body>
 </html>
 

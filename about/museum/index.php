@@ -1,11 +1,11 @@
-<?php include("../includes/a_config.php");?>
+<?php include("../../includes/a_config.php");?>
 <!DOCTYPE html>
 <html lang="ru">
    <head>
-      <?php include("../includes/head.php");?>
+      <?php include("../../includes/head.php");?>
    </head>
    <body class="about_museum">
-      <?php include("../includes/navigation.php") ?>
+      <?php include("../../includes/navigation.php") ?>
       <!-- <h3><?php print $CURRENT_PAGE;?></h3> -->
       <div class="container">
          <div class="row">
@@ -28,6 +28,8 @@
                   <section class="primary">
                      <h4>Экскурсия</h4>
                      <p>Экскурсию проводит опытный гид, который ознакомит Вас с более, чем вековой историей знаменитого предприятия, проведет по старинным подвалам, хранящим на выдержке благородный напиток и поделится тайнами технологии производства.</p>
+                     </section>
+                     <div class="gallery-slice grey">
                      <div class="left-column">
                         <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_1.jpg"><img data-src="/img/museum/museum_main.jpg" alt="" src="/img/museum/museum_main.jpg" class="lazy-loaded"></a>
                         <div class="hidden">
@@ -41,7 +43,8 @@
                            <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_9.jpg"></a>
                         </div>
                      </div>
-                  </section>
+                  </div>
+                  
                   <table>
                      <tbody>
                         <tr>
@@ -89,8 +92,8 @@
             </div>
          </div>
       </section>
-      <?php include("../includes/footer.php") ?>
-      <?php include("../includes/footer_scripts.php") ?>
+      <?php include("../../includes/footer.php") ?>
+      <?php include("../../includes/footer_scripts.php") ?>
    </body>
 </html>
 

@@ -4,7 +4,7 @@
    <head>
       <?php include("../includes/head.php");?>
    </head>
-   <body class="products">
+   <body class="produсts">
       <?php include("../includes/navigation.php") ?>
       <!-- <h3><?php print $CURRENT_PAGE;?></h3> -->
       <div class="container">

@@ -9202,6 +9202,10 @@ a {
   top: 0;
   left: 100%; }
 
+p {
+  font-size: 15px;
+  line-height: 20px; }
+
 .sub-header {
   height: 280px;
   width: 100%;
@@ -9215,8 +9219,33 @@ a {
     font-size: 50px;
     line-height: 48px; }
 
+p.h1-description {
+  font-size: 24px;
+  margin-left: 70px; }
+
 .homepage .sub-header {
   background: url("../img/backgrounds/subheader-bg.jpg") center top no-repeat; }
+
+.history_page .sub-header {
+  background: url("../img/backgrounds/subheader-bg-history.jpg") center top no-repeat; }
+
+.about_winerys .sub-header {
+  background: url("../img/backgrounds/subheader-bg-winerys.jpg") center top no-repeat; }
+
+.about_shops .sub-header {
+  background: url("../img/backgrounds/subheader-bg-shops.jpg") center top no-repeat; }
+
+.about_museum .sub-header {
+  background: url("../img/backgrounds/subheader-bg-museum.jpg") center top no-repeat; }
+
+.about_stockholder .sub-header {
+  background: url("../img/backgrounds/subheader-bg-stockholders.jpg") center top no-repeat; }
+
+.products .sub-header {
+  background: url("../img/backgrounds/subheader-bg-wine.jpg") center top no-repeat; }
+
+.contacts_page .sub-header {
+  background: url("../img/backgrounds/subheader-bg-contacts.jpg") center top no-repeat; }
 
 .content {
   color: #4f5559; }
@@ -9282,14 +9311,25 @@ a {
 .primary .article-info-wrapper {
   padding-left: 73px;
   padding-right: 15px;
-  margin: 10px 0 0 0; }
+  margin: 10px 0 30px 0; }
 
 .primary .article-section-info {
+  border-bottom: 1px solid #D5C89F; }
+
+.homepage .primary .article-section-info {
   font-size: 14px;
   text-indent: 50px;
   padding-bottom: 16px;
-  background: url("../img/p-article-styling.png") no-repeat;
-  border-bottom: 1px solid #D5C89F; }
+  background: url("../img/p-article-styling.png") no-repeat; }
+
+.primary .article-info-wrapper h4 {
+  background: none;
+  font-family: Georgia, serif, sans-serif;
+  color: #4f5559;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 3px;
+  padding-top: 10px; }
 
 aside {
   -webkit-box-shadow: inset 3px 0px 3px -1px #d9d9d9;
@@ -9320,7 +9360,7 @@ aside {
     width: 30px;
     height: 18px;
     background: url("../img/aside-arrow.png") no-repeat;
-    bottom: -18px;
+    bottom: -17px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -9329,6 +9369,47 @@ aside {
 
 .newest-image {
   text-align: center; }
+
+.gallery-slice {
+  background: #f1f1f1;
+  padding: 0 0 0 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .gallery-slice .left-column img {
+    border: 10px solid #fff; }
+
+.about_museum .left-column img {
+  border: 10px solid #fff;
+  width: 50%; }
+
+.link-list a {
+  text-decoration: none;
+  color: #444;
+  font-size: 13px;
+  font-weight: 700;
+  word-break: break-word; }
+
+.link-list li {
+  line-height: normal;
+  padding: 0 0 10px 20px;
+  margin: 10px 0;
+  border-bottom: 1px solid #ccc;
+  background: url(/img/backgrounds/arrow-link.png) no-repeat; }
+
+.right-column {
+  width: 45%;
+  padding: 10px 20px; }
+
+.about_museum .primary {
+  margin: 30px 30px 0 70px; }
+  .about_museum .primary h4 {
+    background: none; }
+
+.maps_contacts {
+  margin-top: 20px;
+  margin-left: 70px; }
 
 footer {
   border-top: 10px solid #ccbd89;
@@ -9454,7 +9535,16 @@ footer {
       padding-bottom: 15px;
       padding-top: 15px; }
     .navbar .dropdown-menu {
-      text-align: center; } }
+      text-align: center; }
+  .gallery-slice {
+    padding: 20px 20px 10px 20px;
+    display: block; }
+  .gallery-slice .left-column {
+    border: none; }
+    .gallery-slice .left-column img {
+      width: 100%; }
+  .gallery-slice .right-column {
+    width: 90%; } }
 
 @media (max-width: 1023.98px) {
   .navbar {
