@@ -70,21 +70,19 @@
                         </tr>
                      </tbody>
                   </table>
-                  <div class="slice grey museum_booking">
-                     <div class="museum__booking__text">
-                        <h2>Бронирование</h2>
-                        <div class="column two link-list">
+                  <article class="intro booking">
+                  <h2 class="article-heading">Бронирование</h2>
+                     <div class="museum_booking">                        
+                        <div class="link-list">
                            <p>Забронировать посещение музея и задать вопросы Вы можете, связавшись с нами</p>
                         </div>
-                     </div>
-                     <div class="museum__booking__adress">
-                        <div class="column two link-list">
+                        <div class="link-list link-list-tel">
                            <p class="tel">+7 (962) 740-80-80</p>
                            <p class="tel">+7 (86559) 7-70-90</p>
                            <p class="email">shuliko@praskoveya.ru</p>
                         </div>
                      </div>
-                  </div>
+                  </article>
                </div>
                <div class="col-lg-3">
                   <?php include($_SERVER["DOCUMENT_ROOT"].'/data/aside.php'); ?>

@@ -9133,6 +9133,10 @@ a {
   a:hover {
     color: #A74040; }
 
+p {
+  font-size: 15px;
+  line-height: 20px; }
+
 .header-bg {
   background: url(../img/header-bg.jpg) top left repeat-x; }
 
@@ -9202,10 +9206,6 @@ a {
   top: 0;
   left: 100%; }
 
-p {
-  font-size: 15px;
-  line-height: 20px; }
-
 .sub-header {
   height: 280px;
   width: 100%;
@@ -9268,6 +9268,8 @@ p.h1-description {
   padding-right: 15px; }
   .intro iframe {
     margin-top: 20px; }
+  .intro .article-heading {
+    padding-top: 30px; }
 
 .video-container {
   position: relative;
@@ -9287,10 +9289,10 @@ p.h1-description {
 
 .article-content {
   margin: 0 0 10px 30px;
-  padding: 0 0 2px 15px;
+  padding: 0  0 2px 15px;
   border-left: 1px solid #A74040;
-    border-left-font-size: 14px;
-    border-left-line-height: 18px; }
+  font-size: 14px;
+  line-height: 18px; }
 
 .primary h3 {
   background: none;
@@ -9384,19 +9386,25 @@ aside {
   border: 10px solid #fff;
   width: 50%; }
 
-.link-list a {
-  text-decoration: none;
-  color: #444;
-  font-size: 13px;
-  font-weight: 700;
-  word-break: break-word; }
+.link-list {
+  width: 100%;
+  background: none;
+  padding: 0; }
+  .link-list a {
+    text-decoration: none;
+    color: #444;
+    font-size: 13px;
+    font-weight: 700;
+    word-break: break-word; }
+  .link-list li {
+    line-height: normal;
+    padding: 0 0 10px 20px;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    background: url(/img/backgrounds/arrow-link.png) no-repeat; }
 
-.link-list li {
-  line-height: normal;
-  padding: 0 0 10px 20px;
-  margin: 10px 0;
-  border-bottom: 1px solid #ccc;
-  background: url(/img/backgrounds/arrow-link.png) no-repeat; }
+.link-list-tel {
+  padding-left: 10%; }
 
 .right-column {
   width: 45%;
@@ -9410,6 +9418,173 @@ aside {
 .maps_contacts {
   margin-top: 20px;
   margin-left: 70px; }
+
+.reception,
+.booking {
+  background-color: #f1f1f1; }
+
+.contacts_page .article-content {
+  border: none;
+  margin: 0;
+  padding: 0; }
+  .contacts_page .article-content .article-heading {
+    padding-top: 30px; }
+
+.row_contacts,
+.museum_booking {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.column h3 {
+  font-family: AgencyGothicCT-Medium;
+  font-weight: 400;
+  margin: 10px 0 10px 0;
+  font-size: 2vmin; }
+
+.commerce .data {
+  width: 45%; }
+
+.intro .link-list h3 {
+  padding-bottom: 3px; }
+
+.data {
+  padding-bottom: 20px;
+  width: 60%; }
+  .data .nolink {
+    background: none;
+    padding-left: 0; }
+
+.link-list h3 {
+  font-family: AgencyGothicCT-Medium;
+  font-weight: normal;
+  margin: 0 0 2px 0px;
+  font-size: 20px;
+  background: none; }
+
+.link-list {
+  padding-left: 30px;
+  width: 48%; }
+
+table {
+  margin-left: 70px; }
+
+table td {
+  width: 186px;
+  vertical-align: middle;
+  text-align: center;
+  background: #f8f8f8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #f8f8f8), color-stop(100%, #f0f0f0));
+  background: -webkit-linear-gradient(top, #f8f8f8 30%, #f0f0f0 100%);
+  background: -o-linear-gradient(top, #f8f8f8 30%, #f0f0f0 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #f8f8f8), to(#f0f0f0));
+  background: linear-gradient(to bottom, #f8f8f8 30%, #f0f0f0 100%); }
+
+table th {
+  font-size: 14px;
+  font-weight: 200;
+  text-align: left;
+  line-height: 25px;
+  padding-bottom: 10px; }
+
+.shops-info p {
+  margin-left: 70px; }
+
+table td span {
+  border-left: 5px solid #D5C89F;
+  display: block;
+  font-weight: 700;
+  padding: 0 20px 0 8px;
+  background-position: 15px 10px; }
+
+table tr {
+  border-top: 1px solid #fff; }
+
+table tr td:first-child {
+  font-weight: 700;
+  border-right: 1px solid #fff;
+  width: 409px;
+  text-align: left;
+  line-height: 35px;
+  vertical-align: top; }
+
+p.tel {
+  font-size: 24px; }
+
+.stock-slice {
+  margin-bottom: 30px; }
+  .stock-slice h4 {
+    font-family: AgencyGothicCT-Medium;
+    font-size: 24px;
+    background: none;
+    margin-left: 70px;
+    margin-top: 30px; }
+
+.header-block-h3 {
+  padding: 20px 0 30px 73px;
+  background: #F7F7F7; }
+  .header-block-h3 h3 {
+    background: none; }
+
+.jq-selectbox {
+  vertical-align: middle;
+  cursor: pointer; }
+
+.jq-selectbox__select {
+  height: 32px;
+  padding: 0 45px 0 10px;
+  border: 1px solid #CCC;
+  border-bottom-color: #B3B3B3;
+  border-radius: 4px;
+  background: #F5F5F5;
+  background: -webkit-linear-gradient(#FFF, #E6E6E6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#E6E6E6));
+  background: -o-linear-gradient(#FFF, #E6E6E6);
+  background: linear-gradient(#FFF, #E6E6E6);
+  -webkit-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
+  font: 14px/32px Arial, sans-serif;
+  color: #333;
+  text-shadow: 1px 1px #FFF; }
+
+.jq-selectbox__dropdown {
+  /* box-sizing: border-box; */
+  width: 100%;
+  margin: 2px 0 0;
+  padding: 0;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  background: #FFF;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font: 14px/18px Arial, sans-serif; }
+
+.jq-selectbox__trigger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 34px;
+  height: 100%;
+  border-left: 1px solid #CCC; }
+
+.jq-selectbox__trigger-arrow {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #999;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent; }
+
+.slice.grey {
+  background: #f1f1f1;
+  padding: 20px 0 20px 54px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 footer {
   border-top: 10px solid #ccbd89;
@@ -9504,9 +9679,30 @@ footer {
   .header-bg {
     background: #A74040; }
   .main-menu .navbar {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .link-list-tel {
+    padding-left: 1%; }
+  table {
+    margin-left: 0; }
+  p.tel {
+    font-size: 18px; }
+  table td span {
+    display: block;
+    font-weight: 700;
+    padding: 0px 0px 0 5px; }
+  table th {
+    padding-left: 15px; }
+  .stock-slice h4 {
+    margin-left: 15px; }
+  .about_museum .primary {
+    margin-left: 15px; }
+  .slice.grey {
+    display: block;
+    padding-left: 0; } }
 
 @media (max-width: 767.98px) {
+  p.h1-description {
+    margin-left: 15px; }
   #navbarNavDropdown {
     background-color: #393939;
     margin-top: 10px; }
@@ -9544,7 +9740,7 @@ footer {
     .gallery-slice .left-column img {
       width: 100%; }
   .gallery-slice .right-column {
-    width: 90%; } }
+    width: 9 0%; } }
 
 @media (max-width: 1023.98px) {
   .navbar {
@@ -9567,7 +9763,20 @@ footer {
   .primary .full-image-slice {
     padding: 15px; }
   .primary .article-info-wrapper {
-    padding-left: 15px; } }
+    padding-left: 15px; }
+  .right-column {
+    width: 70%; }
+  .article-content {
+    margin: 0;
+    padding: 0;
+    border: none; }
+  .contacts_page .row_contacts {
+    display: block; }
+  .contacts_page .commerce .data {
+    padding-bottom: 20px;
+    width: 100%; }
+    .contacts_page .commerce .data ul {
+      width: 60%; } }
 
 #navbarNavDropdown {
   background-color: none; }
