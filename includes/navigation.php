@@ -17,19 +17,19 @@
                         <a class="nav-link <?php if ($CURRENT_PAGE == "Index") {?>active<?php }?>" href="/">Главная</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link <?php if ($CURRENT_PAGE == "history") {?>active<?php }?>" href="/history/index.php">История</a>
+                        <a class="nav-link <?php if ($CURRENT_PAGE == "history") {?>active<?php }?>" href="/history/">История</a>
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>" href="#">О компании</a>
                         <ul class="dropdown-menu dropdown-menu-left">
-                           <li><a class="dropdown-item" href="/about/winerys/index.php">Производства</a></li>
-                           <li><a class="dropdown-item" href="/about/shops/index.php">Розничная сеть</a></li>
-                           <li><a class="dropdown-item" href="/about/museum/index.php">Музей виноделия</a></li>
+                           <li><a class="dropdown-item" href="/about/winerys/">Производства</a></li>
+                           <li><a class="dropdown-item" href="/about/shops/">Розничная сеть</a></li>
+                           <li><a class="dropdown-item" href="/about/museum/">Музей виноделия</a></li>
                            <li class="dropdown-submenu">
                               <a class="dropdown-item" href="#">Акционерам</a>
                               <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="/about/stockholders/produce/index.php">АО «Прасковейское»</a></li>
-                                 <li><a class="dropdown-item" href="/about/stockholders/trade/index.php">АО «ТП Прасковейское»</a></li>
+                                 <li><a class="dropdown-item" href="/about/stockholders/produce/">АО «Прасковейское»</a></li>
+                                 <li><a class="dropdown-item" href="/about/stockholders/trade/">АО «ТП Прасковейское»</a></li>
                               </ul>
                            </li>
                         </ul>
@@ -40,18 +40,18 @@
                            <li  class="dropdown-submenu">
                               <a class="dropdown-item" href="#">Вина</a>
                               <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="/products/wine/blanc/index.php">Белые</a></li>
-                                 <li><a class="dropdown-item" href="/products/wine/rose/index.php">Розовые</a></li>
-                                 <li><a class="dropdown-item" href="/products/wine/rouge/index.php">Красные</a></li>
-                                 <li><a class="dropdown-item" href="/products/wine/sparkling/index.php">Игристые</a></li>
-                                 <li><a class="dropdown-item" href="/products/wine/collection/index.php">Коллекционные</a></li>
+                                 <li><a class="dropdown-item" href="/products/wine/blanc/">Белые</a></li>
+                                 <li><a class="dropdown-item" href="/products/wine/rose/">Розовые</a></li>
+                                 <li><a class="dropdown-item" href="/products/wine/rouge/">Красные</a></li>
+                                 <li><a class="dropdown-item" href="/products/wine/sparkling/">Игристые</a></li>
+                                 <li><a class="dropdown-item" href="/products/wine/collection/">Коллекционные</a></li>
                               </ul>
                            </li>
                            <li class="dropdown-submenu">
                               <a class="dropdown-item" href="#">Коньяки</a>
                               <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="/products/cognac/ordin/index.php">Ординарные</a></li>
-                                 <li><a class="dropdown-item" href="/products/cognac/mrn/index.php">Марочные</a></li>
+                                 <li><a class="dropdown-item" href="/products/cognac/ordin/">Ординарные</a></li>
+                                 <li><a class="dropdown-item" href="/products/cognac/mrn/">Марочные</a></li>
                               </ul>
                            </li>
                            <li><a class="dropdown-item" href="/products/strong.php">Крепкие напитки</a></li>
@@ -60,8 +60,8 @@
                      <li class="nav-item dropdown">
                         <a class="nav-link <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>" href="#">Контакты</a>
                         <div class="dropdown-menu dropdown-menu-right">
-                           <a class="dropdown-item" href="/contacts/index.php">Адрес</a>
-                           <a class="dropdown-item" href="/feedback/index.php">Обратная связь</a>
+                           <a class="dropdown-item" href="/contacts/">Адрес</a>
+                           <a class="dropdown-item" href="/feedback/">Обратная связь</a>
                         </div>
                      </li>
                   </ul>

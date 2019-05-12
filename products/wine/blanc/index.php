@@ -1,4 +1,5 @@
 <?php include("../../../includes/a_config.php");?>
+<?php include($_SERVER["DOCUMENT_ROOT"].'/data/rating/_drawrating.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
    <head>
@@ -26,33 +27,21 @@
                      <p class="article-content">Для белых вин характерны легкий светло-золотистый цвет, яркий сортовой аромат с цветочными тонами, изысканный легкий вкус с долгим богатым послевкусием. Подавать охлажденным до t +8 +10 °C.</p>
                   </article>
                   <section class="primary">
-                     <div class="product-box primary">
-                        <h3>Вино згу сухое белое «Шардоне-Совиньон»</h3>
-                        <div class="products-column_content">
-                           <div class="products-column left">
-                              <a class="fancybox" title="Вино згу сухое белое «Шардоне-Совиньон»" href="/img/products/bigsize/sm-chardonnay-sauvignon.jpg"><img class="products-mini" src="/img/products/sm-chardonnay-sauvignon.png" alt=""></a>
-                           </div>
-                           <div class="products-column right">
-                              <p class="producer">Chateau Saint Martin de la Garrigue</p>
-                              <p>Изготавливается из винограда сортов «Шардоне» и «Совиньон», выращенного на юге Франции. Обладает светло-золотистым цветом, насыщенным ароматом белых цветов и свежим сбалансированным вкусом.</p>
-                              <p>Произведено и разлито в замке Шато Сент-Мартин Де Ла Гариг</p>
-                              <p class="product-parameters">0,75л./12-14% об.</p>
-                           </div>
-                        </div>
-                        <div class="raiting">
-                           <div class="ratingblock">
-                              <div id="unit_longsmchardsauvignon">
-                                 <ul id="unit_ulsmchardsauvignon" class="unit-rating" style="width:100px;">
-                                    <li class="current-rating" style="width:87.6px;">Текущее 4.38/5</li>
-                                    <li><a href="/db.php?j=1&amp;q=smchardsauvignon&amp;t=31.31.31.58&amp;c=5" title="1 из 5" class="r1-unit rater" rel="nofollow">1</a></li>
-                                    <li><a href="/db.php?j=2&amp;q=smchardsauvignon&amp;t=31.31.31.58&amp;c=5" title="2 из 5" class="r2-unit rater" rel="nofollow">2</a></li>
-                                    <li><a href="/db.php?j=3&amp;q=smchardsauvignon&amp;t=31.31.31.58&amp;c=5" title="3 из 5" class="r3-unit rater" rel="nofollow">3</a></li>
-                                    <li><a href="/db.php?j=4&amp;q=smchardsauvignon&amp;t=31.31.31.58&amp;c=5" title="4 из 5" class="r4-unit rater" rel="nofollow">4</a></li>
-                                    <li><a href="/db.php?j=5&amp;q=smchardsauvignon&amp;t=31.31.31.58&amp;c=5" title="5 из 5" class="r5-unit rater" rel="nofollow">5</a></li>
-                                 </ul>
-                                 <p style="text-align: left; margin:0;">Рейтинг: <strong> 4.4</strong>/5 (голосов: 13)  </p>
+                     <div class="product-box">
+                        <h3 class="product-title">Вино згу сухое белое «Шардоне-Совиньон»</h3>
+                        <div class="product-info">
+                           <div class="product-column_content">
+                              <div class="product-column left">
+                                 <a class="fancybox" title="Вино згу сухое белое «Шардоне-Совиньон»" href="/img/products/bigsize/sm-chardonnay-sauvignon.jpg"><img class="product-mini" src="/img/products/sm-chardonnay-sauvignon.png" alt=""></a>
+                              </div>
+                              <div class="product-column right">
+                                 <p class="producer">Chateau Saint Martin de la Garrigue</p>
+                                 <p>Изготавливается из винограда сортов «Шардоне» и «Совиньон», выращенного на юге Франции. Обладает светло-золотистым цветом, насыщенным ароматом белых цветов и свежим сбалансированным вкусом.</p>
+                                 <p>Произведено и разлито в замке Шато Сент-Мартин Де Ла Гариг</p>
+                                 <p class="product-parameters">0,75л./12-14% об.</p>
                               </div>
                            </div>
+                           <div class="rpoduct-rating raitgiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box primary">
@@ -69,7 +58,7 @@
                               <p class="product-parameters">0,75л./12-14% об.</p>
                            </div>
                         </div>
-                        <div class="raiting">
+                        <div class="product-rating raiting">
                            <div class="ratingblock">
                               <div id="unit_longwunissovosblanc">
                                  <ul id="unit_ulwunissovosblanc" class="unit-rating" style="width:100px;">

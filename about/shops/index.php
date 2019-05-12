@@ -27,6 +27,37 @@
                </article>               
                <section class="header-block-h3">               
                         <h3>Регион</h3>
+                        <div class="dropdown">
+                           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Выберите регион
+                           </button>
+                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab1">Москва</a>
+                              <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab2">Московская область</a>
+                              <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab3">Нижегородская область</a>
+                              <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab4">Ростовская область</a>
+                              <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab5">Ставропольский край</a>
+                           </div>
+                        </div>
+
+                        <div class="tab-content" id="nav-tabContent">
+                           <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="nav-home-tab">
+                           1
+                           </div>
+                           <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                           2
+                           </div>
+                           <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                           3
+                           </div>
+                           <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="nav-profile-tab">
+                           4
+                           </div>
+                           <div class="tab-pane fade" id="tab5 " role="tabpanel" aria-labelledby="nav-contact-tab">
+                           5
+                           </div>
+                        </div>
+
                         <div id="input-select-styler" class="jq-selectbox jqselect select-shops-region changed" style="display: inline-block; position: relative; z-index:100"><select name="region" id="input-select" class="select-shops-region" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
                            <option value="r77">Москва</option>
                            <option value="r50">Московская область </option>
