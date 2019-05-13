@@ -25,10 +25,10 @@ const
   IS_SENS_FILES_AS_ATTACHMENTS = true, // необходимо ли прикреплять файлы к письму
   MAX_FILE_SIZE = 524288, // максимальный размер файла (в байтах)
   ALLOWED_EXTENSIONS = array('jpg', 'jpeg', 'bmp', 'gif', 'png'), // разрешённые расширения файлов
-  MAIL_FROM = 'feedback@praskoveya.ru', // от какого email будет отправляться письмо
-  MAIL_FROM_NAME = 'feedback praskoveya.ru', // от какого имени будет отправляться письмо
-  MAIL_SUBJECT = 'Сообщение с формы обратной связи praskoveya.ru', // тема письма
-  MAIL_ADDRESS = 'feedback@praskoveya.ru', // кому необходимо отправить письмо
+  MAIL_FROM = 'no-reply@mydomain.ru', // от какого email будет отправляться письмо
+  MAIL_FROM_NAME = 'Имя_сайта', // от какого имени будет отправляться письмо
+  MAIL_SUBJECT = 'Сообщение с формы обратной связи', // тема письма
+  MAIL_ADDRESS = 'manager@mydomain.ru', // кому необходимо отправить письмо
   MAIL_SUBJECT_CLIENT = 'Ваше сообщение доставлено'; // настройки mail для информирования пользователя о доставке сообщения
 $uploadPath = dirname(dirname(__FILE__)) . '/uploads/'; // директория для хранения загруженных файлов
 
@@ -86,9 +86,9 @@ if (isset($_POST['message'])) {
 }
 /* 5 ЭТАП - ПРОВЕРКА КАПЧИ */
 if (IS_CHECK_CAPTCHA == true) {
-  if (isset($_POST['captcha']) && isset($_SESSION['captcha'])) {
+  if (isset($_POST['captcha']) && isset($_SESSION['captcha-2'])) {
     $captcha = filter_var($_POST['captcha'], FILTER_SANITIZE_STRING); // защита от XSS
-    if ($_SESSION['captcha'] != $captcha) { // проверка капчи
+    if ($_SESSION['captcha-2'] != $captcha) { // проверка капчи
       $data['captcha'] = 'Код не соответствует изображению.';
       $data['result'] = 'error';
     }

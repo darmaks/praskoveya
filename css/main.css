@@ -9206,6 +9206,9 @@ p {
   top: 0;
   left: 100%; }
 
+.hidden {
+  display: none; }
+
 .sub-header {
   height: 280px;
   width: 100%;

@@ -87,10 +87,10 @@
                         <div class="product-info">
                            <div class="product-column_content">
                               <div class="product-column left">
-                                 <a class="fancybox" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» 0,75 л." href="/img/products/bigsize/wu-sauvignon-blanc.jpg"><img class="products-mini" src="/img/products/wu-sauvignon-blanc.png" alt=""></a>
+                                 <a class="fancybox" data-fancybox="gallery" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» 0,75 л." href="/img/products/bigsize/wu-sauvignon-blanc.jpg"><img class="products-mini" src="/img/products/wu-sauvignon-blanc.png" alt=""></a>
                                  <div class="hidden">
-                                    <a class="fancybox" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» 0,375 л." href="/img/products/bigsize/wu-sauvignon-blanc-375.jpg"></a>
-                                    <a class="fancybox" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» Bag in Box 3 л." href="/img/products/bigsize/wu-sauvignon-blanc-bib.jpg"></a>
+                                    <a class="fancybox" data-fancybox="gallery" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» 0,375 л." href="/img/products/bigsize/wu-sauvignon-blanc-375.jpg"><img src="/img/products/bigsize/wu-sauvignon-blanc-375.jpg" alt="" /></a>
+                                    <a class="fancybox" data-fancybox="gallery" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» Bag in Box 3 л." href="/img/products/bigsize/wu-sauvignon-blanc-bib.jpg"><img src="/img/products/bigsize/wu-sauvignon-blanc-bib.jpg" alt="" /></a>
                                  </div>
                               </div>
                               <div class="product-column right">

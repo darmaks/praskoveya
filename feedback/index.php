@@ -1,5 +1,3 @@
-
-
 <?php include("../includes/a_config.php");?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -24,14 +22,12 @@
          <div class="container">
             <div class="row no-gutters">
                <div class="col-lg-9">
-               <article class="intro">
-                  <h2 class="article-heading">обратная связь</h2>
-                  </article>
-                  <div class="1">
+                  <article class="intro">
+                     <h2 class="article-heading">обратная связь</h2>
                      <div class="mx-auto mb-4 rounded-0" style="max-width: 42rem;">
                         <div class="card-body position-relative">
                            <!-- Форма обратной связи -->
-                           <form id="feedback-form" action="/examples/vendors/feedback-2.0/process/process.php" enctype="multipart/form-data" novalidate>
+                           <form id="feedback" action="/feedback/process/process.php" enctype="multipart/form-data" novalidate>
                               <div class="form-row">
                                  <div class="col-sm-6">
                                     <!-- Имя пользователя -->
@@ -64,11 +60,8 @@
                                  <p class="text-secondary">jpg, jpeg, bmp, gif, png (до 512 Кбайт)</p>
                                  <div class="attachments" data-counts="5">
                                     <div class="form-group">
-                                       <div class="custom-file">
-                                          <input name="attachment[]" type="file" class="custom-file-input" id="validatedCustomFile" lang="ru">
-                                          <label class="custom-file-label" for="validatedCustomFile">Выберите файл...</label>
-                                          <div class="invalid-feedback"></div>
-                                       </div>
+                                       <label for="validatedCustomFile">Выберите файл...</label>
+                                       <input name="attachment[]" type="file" class="form-control-file" id="validatedCustomFile">
                                     </div>
                                  </div>
                               </div>
@@ -83,16 +76,6 @@
                                     <div class="invalid-feedback"></div>
                                  </div>
                               </div>
-                              <!-- Пользовательское солашение -->
-                              <!-- <div class="form-group agreement">
-                                 <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" name="agree" class="custom-control-input" id="customCheck">
-                                    <label class="custom-control-label" for="customCheck">Нажимая кнопку, я принимаю условия <a href="#">Пользовательского
-                                    соглашения</a> и даю своё согласие на обработку моих персональных данных, в
-                                    соответствии с
-                                    Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных».</label>
-                                 </div>
-                              </div> -->
                               <!-- Сообщение при ошибке -->
                               <div class="alert alert-danger form-error d-none">
                                  Исправьте данные и отправьте форму ещё раз.
@@ -106,18 +89,18 @@
                               </div>
                               <!-- Кнопка для отправки формы -->
                               <div class="text-right submit">
-                                 <button type="submit" class="btn btn-success position-relative" disabled="disabled">Отправить
+                                 <button type="submit" class="btn btn-success position-relative">Отправить
                                  сообщение</button>
                               </div>
                            </form>
                            <!-- Сообщение об успешной отправки формы -->
                            <div class="form-result-success d-none text-center justify-content-center align-items-center" style="position: absolute;
                               top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.6); color: #fff; font-size: 1.25rem; z-index: 1000;">
-                              <div class="alert alert-success rounded-0" style="z-index: 1001;">Форма успешно отправлена. Нажмите на <a class="alert-link" href="#" data-reloadform="#feedback-form">ссылку</a>, чтобы отправить ещё одно сообщение.</div>
+                              <div class="alert alert-success rounded-0" style="z-index: 1001;">Форма успешно отправлена. Нажмите на <a class="alert-link" href="#" data-reloadform="#feedback">ссылку</a>, чтобы отправить ещё одно сообщение.</div>
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </article>
                </div>
                <div class="col-lg-3">
                   <?php include($_SERVER["DOCUMENT_ROOT"].'/data/aside.php'); ?>
@@ -127,10 +110,6 @@
       </section>
       <?php include("../includes/footer.php") ?>
       <?php include("../includes/footer_scripts.php") ?>
-      <script src="/vendors/jquery/jquery-3.2.1.min.js"></script>
-      <script src="/vendors/bootstrap/js/bootstrap.min.js"></script>
-      <script src="/vendors/feedback-2.0/js/process-forms.js"></script>
-      <script src="/vendors/feedback-2.0/js/main.js"></script>
    </body>
 </html>
 
