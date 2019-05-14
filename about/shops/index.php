@@ -29,59 +29,15 @@
                   </article>
                   <section class="header-block-h3">
                      <h3>Регион</h3>
-                     <!-- <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Выберите регион
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                           <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab1">Москва</a>
-                           <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab2">Московская область</a>
-                           <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab3">Нижегородская область</a>
-                           <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab4">Ростовская область</a>
-                           <a class="dropdown-item" role="tab" data-toggle="tab" href="#tab5">Ставропольский край</a>
-                        </div>
-                        </div>
-                        
-                        <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="nav-home-tab">
-                        1
-                        </div>
-                        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        2
-                        </div>
-                        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-contact-tab">
-                        3
-                        </div>
-                        <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        4
-                        </div>
-                        <div class="tab-pane fade" id="tab5 " role="tabpanel" aria-labelledby="nav-contact-tab">
-                        5
-                        </div>
-                        </div> -->
-                     <div id="input-select-styler" class="jq-selectbox jqselect select-shops-region changed" style="display: inline-block; position: relative; z-index:100">
-                        <select name="region" id="input-select" class="select-shops-region" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
-                           <option value="r77">Москва</option>
+                     <div class="form-group">
+                        <label for="sel1">Выберите регион</label>
+                        <select class="form-control" id="regions">
+                           <option value="r77" selected="selected">Москва</option>
                            <option value="r50">Московская область </option>
                            <option value="r52">Нижегородская область </option>
                            <option value="r61">Ростовская область </option>
                            <option value="r26">Ставропольский край</option>
                         </select>
-                        <div class="jq-selectbox__select" style="position: relative">
-                           <div class="jq-selectbox__select-text" style="width: 142px;">Ставропольский край</div>
-                           <div class="jq-selectbox__trigger">
-                              <div class="jq-selectbox__trigger-arrow"></div>
-                           </div>
-                        </div>
-                        <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
-                           <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
-                              <li class="selected sel" style="">Москва</li>
-                              <li style="">Московская область </li>
-                              <li style="">Нижегородская область </li>
-                              <li style="">Ростовская область </li>
-                              <li class="selected sel" style="">Ставропольский край</li>
-                           </ul>
-                        </div>
                      </div>
                   </section>
                   <div id="r26" class="group_shop_region" style="">
@@ -391,28 +347,6 @@
       </section>
       <?php include("../../includes/footer.php") ?>
       <?php include("../../includes/footer_scripts.php") ?>
-      <script type="text/javascript"> <!-- select jQuery hide show -->
-         $(document).ready(function(){
-         	$("select").prop("selectedIndex", 4);
-         	var selected_id = $("#input-select option:selected").val();
-         	$('.group_shop_region').hide();
-         	$('#' + selected_id ).fadeIn('slow');
-         	$("select").change(function() {
-         		var selected_id = $("#input-select option:selected").val();
-         		var selected_text = $("#input-select option:selected").html();
-         		//$("#about h3").html(selected_text);
-         		$('.group_shop_region').hide();
-         		$('#' + selected_id ).fadeIn('slow');			
-         	});
-         });
-      </script>
-      <script> <!-- formstyler -->
-         (function($) {
-         	$(function() {
-         		$('select').styler();
-         	});
-         })(jQuery);
-      </script>
    </body>
 </html>
 

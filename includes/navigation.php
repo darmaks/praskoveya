@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row justify-content-between">
          <div class="d-none d-sm-block col-sm-4 col-md-3 col-lg-3">
-            <a href="" class="logo">
+            <a href="/" class="logo">
             <img class="img-fluid" src="../../../img/logo.png" alt="">
             </a>
          </div>
