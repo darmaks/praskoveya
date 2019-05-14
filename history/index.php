@@ -54,46 +54,28 @@
 								<div class="left-column">
 									<a class="fancybox" rel="history" title="История" href="/img/history/history_1.jpg">                           
                               <img src="/img/history/history_main.jpg" alt="" class="full-image-slice"></a>
-									<div class="hidden">
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_2.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_3.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_4.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_5.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_6.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_7.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_8.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_9.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_10.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_11.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_12.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_13.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_14.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_15.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_16.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_17.jpg"></a>
-									</div>
 								</div>
 								<div class="right-column link-list">
 									<ul>
-										<li><a class="fancybox" rel="history" title="История" href="/img/history/history_1.jpg">Фотогалерея</a></li>
+										<li><a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_1.jpg">Фотогалерея</a></li>
 									</ul>
 									<div class="hidden">
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_2.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_3.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_4.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_5.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_6.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_7.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_8.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_9.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_10.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_11.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_12.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_13.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_14.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_15.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_16.jpg"></a>
-										<a class="fancybox" rel="history" title="История" href="/img/history/history_17.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_2.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_3.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_4.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_5.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_6.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_7.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_8.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_9.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_10.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_11.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_12.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_13.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_14.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_15.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_16.jpg"></a>
+										<a class="fancybox" data-fancybox="history-galery"  rel="history" title="История" href="/img/history/history_17.jpg"></a>
 									</div>
 								</div>
 							</div>

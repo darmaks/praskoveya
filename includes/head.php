@@ -4,4 +4,4 @@
 <title><?php print $PAGE_TITLE;?></title>
 
 <link rel="stylesheet" href="/css/main.css" type="text/css">
-<link rel="shortcut icon" type="image/x-icon" href="http://praskoveya.ru/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico">

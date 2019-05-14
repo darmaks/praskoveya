@@ -42,7 +42,7 @@
                                  <p class="product-parameters">0,75 л./12-14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('wunissovorose',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -58,7 +58,7 @@
                                  <p class="product-parameters">0,75 л./12-14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('rose',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -75,7 +75,7 @@
                                  <p class="product-parameters">0,75 л./13,5% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('rosebronzinelle',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -91,7 +91,7 @@
                                  <p class="product-parameters">0,75 л./11-13% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('wurosesemisweet',5); ?></div>
                         </div>
                      </div>
                   </section>

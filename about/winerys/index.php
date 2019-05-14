@@ -29,15 +29,8 @@
                      <h3>Прасковейский Винзавод</h3>
                      <div class="gallery-slice grey">
                         <div class="left-column">
-                           <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery1.jpg"><img data-src="/img/winerys/praskoveya_winery.jpg" alt="" src="/img/winerys/praskoveya_winery.jpg" class="lazy-loaded"></a>
-                           <div class="hidden">
-                              <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery2.jpg"></a>
-                              <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery3.jpg"></a>
-                              <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery4.jpg"></a>
-                              <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery5.jpg"></a>
-                              <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery6.jpg"></a>
-                              <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery7.jpg"></a>
-                           </div>
+                           <a class="fancybox" rel="winerys" title="Прасковейский винзавод" href="/img/winerys/pr_winery1.jpg">
+                           <img data-src="/img/winerys/praskoveya_winery.jpg" alt="" src="/img/winerys/praskoveya_winery.jpg" class="lazy-loaded"></a>
                         </div>
                         <div class="right-column link-list">
                            <ul>
@@ -48,14 +41,14 @@
                                  </div>
                               </li>
                               <li>
-                                 <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery1.jpg">Фотогалерея</a>
+                                 <a class="fancybox" data-fancybox="winerys-pras" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery1.jpg">Фотогалерея</a>
                                  <div class="hidden">
-                                    <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery2.jpg"></a>
-                                    <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery3.jpg"></a>
-                                    <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery4.jpg"></a>
-                                    <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery5.jpg"></a>
-                                    <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery6.jpg"></a>
-                                    <a class="fancybox" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery7.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-pras" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery2.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-pras" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery3.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-pras" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery4.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-pras" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery5.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-pras" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery6.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-pras" rel="winery1" title="Прасковейский винзавод" href="/img/winerys/pr_winery7.jpg"></a>
                                  </div>
                               </li>
                               <li><a href="/">www.praskoveya.ru</a></li>
@@ -77,30 +70,22 @@
                      <h3>Chateau Saint Martin de la Garrigue</h3>
                      <div class="gallery-slice grey">
                         <div class="left-column">
-                           <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery1.jpg"><img data-src="/img/winerys/saint_martin_winery.jpg" alt="" src="/img/winerys/saint_martin_winery.jpg" class="lazy-loaded"></a>
-                           <div class="hidden">
-                              <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery2.jpg"></a>
-                              <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery3.jpg"></a>
-                              <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery4.jpg"></a>
-                              <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery5.jpg"></a>
-                              <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery6.jpg"></a>
-                              <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery7.jpg"></a>
-                              <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery8.jpg"></a>
-                           </div>
+                           <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery1.jpg">
+                           <img data-src="/img/winerys/saint_martin_winery.jpg" alt="" src="/img/winerys/saint_martin_winery.jpg" class="lazy-loaded"></a>
                         </div>
                         <div class="right-column link-list">
                            <ul>
                               <li><a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/cYhwZvObkYU">Видеоматериалы</a></li>
                               <li>
-                                 <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery1.jpg">Фотогалерея</a>
+                                 <a class="fancybox" data-fancybox="winerys-ChateauSM" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery1.jpg">Фотогалерея</a>
                                  <div class="hidden">
-                                    <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery2.jpg"></a>
-                                    <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery3.jpg"></a>
-                                    <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery4.jpg"></a>
-                                    <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery5.jpg"></a>
-                                    <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery6.jpg"></a>
-                                    <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery7.jpg"></a>
-                                    <a class="fancybox" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery8.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-ChateauSM" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery2.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-ChateauSM" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery3.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-ChateauSM" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery4.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-ChateauSM" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery5.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-ChateauSM" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery6.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-ChateauSM" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery7.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-ChateauSM" rel="winery2" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sm_winery8.jpg"></a>
                                  </div>
                               </li>
                               <li><a href="http://www.stmartingarrigue.com/ru">www.stmartingarrigue.com</a></li>
@@ -119,29 +104,21 @@
                      <h3>Chateau de Saint-Louis</h3>
                      <div class="gallery-slice grey">
                         <div class="left-column">
-                           <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery1.jpg"><img data-src="/img/winerys/saint_louis_winery.jpg" alt="" src="/img/winerys/saint_louis_winery.jpg" class="lazy-loaded"></a>
-                           <div class="hidden">
-                              <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery2.jpg"></a>
-                              <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery3.jpg"></a>
-                              <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery4.jpg"></a>
-                              <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery5.jpg"></a>
-                              <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery6.jpg"></a>
-                              <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery7.jpg"></a>
-                              <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery8.jpg"></a>
-                           </div>
+                           <a class="fancybox"  rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery1.jpg">
+                           <img data-src="/img/winerys/saint_louis_winery.jpg" alt="" src="/img/winerys/saint_louis_winery.jpg" class="lazy-loaded"></a>
                         </div>
                         <div class="right-column link-list">
                            <ul>
                               <li>
-                                 <a class="fancybox" rel="winery3" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sl_winery1.jpg">Фотогалерея</a>
+                                 <a class="fancybox" data-fancybox="winerys-ChateauSL" rel="winery3" title="Chateau Saint Martin de la Garrigue" href="/img/winerys/sl_winery1.jpg">Фотогалерея</a>
                                  <div class="hidden">
-                                    <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery2.jpg"></a>
-                                    <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery3.jpg"></a>
-                                    <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery4.jpg"></a>
-                                    <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery5.jpg"></a>
-                                    <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery6.jpg"></a>
-                                    <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery7.jpg"></a>
-                                    <a class="fancybox" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery8.jpg"></a>
+                                    <a class="fancybox"  data-fancybox="winerys-ChateauSL" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery2.jpg"></a>
+                                    <a class="fancybox"  data-fancybox="winerys-ChateauSL" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery3.jpg"></a>
+                                    <a class="fancybox"  data-fancybox="winerys-ChateauSL" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery4.jpg"></a>
+                                    <a class="fancybox"  data-fancybox="winerys-ChateauSL" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery5.jpg"></a>
+                                    <a class="fancybox"  data-fancybox="winerys-ChateauSL" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery6.jpg"></a>
+                                    <a class="fancybox"  data-fancybox="winerys-ChateauSL" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery7.jpg"></a>
+                                    <a class="fancybox"  data-fancybox="winerys-ChateauSL" rel="winery3" title="Chateau de Saint louis" href="/img/winerys/sl_winery8.jpg"></a>
                                  </div>
                               </li>
                               <li><a href="http://www.chateau-saintlouis.com/">www.chateau-saintlouis.com</a></li>
@@ -160,29 +137,21 @@
                      <h3>Wine Union</h3>
                      <div class="gallery-slice grey">
                         <div class="left-column">
-                           <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery1.jpg"><img data-src="/img/winerys/wineunion_winery.jpg" alt="" src="/img/winerys/wineunion_winery.jpg" class="lazy-loaded"></a>
-                           <div class="hidden">
-                              <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery2.jpg"></a>
-                              <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery3.jpg"></a>
-                              <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery4.jpg"></a>
-                              <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery5.jpg"></a>
-                              <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery6.jpg"></a>
-                              <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery7.jpg"></a>
-                              <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery8.jpg"></a>
-                           </div>
+                           <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery1.jpg">
+                           <img data-src="/img/winerys/wineunion_winery.jpg" alt="" src="/img/winerys/wineunion_winery.jpg" class="lazy-loaded"></a>
                         </div>
                         <div class="right-column link-list">
                            <ul>
                               <li>
-                                 <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery1.jpg">Фотогалерея</a>
+                                 <a class="fancybox" data-fancybox="winerys-WU" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery1.jpg">Фотогалерея</a>
                                  <div class="hidden">
-                                    <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery2.jpg"></a>
-                                    <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery3.jpg"></a>
-                                    <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery4.jpg"></a>
-                                    <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery5.jpg"></a>
-                                    <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery6.jpg"></a>
-                                    <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery7.jpg"></a>
-                                    <a class="fancybox" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery8.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-WU" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery2.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-WU" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery3.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-WU" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery4.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-WU" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery5.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-WU" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery6.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-WU" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery7.jpg"></a>
+                                    <a class="fancybox" data-fancybox="winerys-WU" rel="winery4" title="Wine Union" href="/img/winerys/wu_winery8.jpg"></a>
                                  </div>
                               </li>
                               <li><a href="http://www.wineunion.eu">www.wineunion.eu</a></li>

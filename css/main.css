@@ -9394,6 +9394,7 @@ aside {
 
 .link-list {
   width: 100%;
+  padding-left: 30px;
   background: none;
   padding: 0; }
   .link-list a {
@@ -9412,9 +9413,9 @@ aside {
 .link-list-tel {
   padding-left: 10%; }
 
-.right-column {
-  width: 45%;
-  padding: 10px 20px; }
+.right-column.link-list {
+  width: 100%;
+  padding: 10px 10px 20px 20px; }
 
 .about_museum .primary {
   margin: 30px 30px 0 70px; }
@@ -9941,6 +9942,9 @@ footer {
 
 #navbarNavDropdown {
   background-color: none; }
+
+.link-list {
+  padding-left: 0; }
 
 @media (max-width: 575.98px) {
   .sub-header {

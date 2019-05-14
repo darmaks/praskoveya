@@ -40,7 +40,7 @@
                                  <p class="product-parameters">0,7, 0,75, 0,8 л.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('prcollectionwine',5); ?></div>
                         </div>
                      </div>
                   </section>

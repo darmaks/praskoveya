@@ -40,7 +40,7 @@
                                  <p class="product-parameters">0,75 л./13% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smsparklingrose',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -56,7 +56,7 @@
                                  <p class="product-parameters">0,75 л./13% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smsparklingdrywhite',5); ?></div>
                         </div>
                      </div>
                   </section>

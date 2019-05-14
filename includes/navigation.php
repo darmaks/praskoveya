@@ -54,7 +54,7 @@
                                  <li><a class="dropdown-item" href="/products/cognac/mrn/">Марочные</a></li>
                               </ul>
                            </li>
-                           <li><a class="dropdown-item" href="/products/strong.php">Крепкие напитки</a></li>
+                           <li><a class="dropdown-item" href="/products/strong/">Крепкие напитки</a></li>
                         </ul>
                      </li>
                      <li class="nav-item dropdown">

@@ -61,7 +61,7 @@
                                  <p class="product-parameters">0,75л./12-14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('wunissovosblanc',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -79,7 +79,7 @@
                                  <p class="product-parameters">0,75л./12-14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('wunissovosblanc',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -87,10 +87,10 @@
                         <div class="product-info">
                            <div class="product-column_content">
                               <div class="product-column left">
-                                 <a class="fancybox" data-fancybox="gallery" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» 0,75 л." href="/img/products/bigsize/wu-sauvignon-blanc.jpg"><img class="products-mini" src="/img/products/wu-sauvignon-blanc.png" alt=""></a>
+                                 <a class="fancybox" data-fancybox="wu-sauvignon-blanc" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» 0,75 л." href="/img/products/bigsize/wu-sauvignon-blanc.jpg"><img class="products-mini" src="/img/products/wu-sauvignon-blanc.png" alt=""></a>
                                  <div class="hidden">
-                                    <a class="fancybox" data-fancybox="gallery" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» 0,375 л." href="/img/products/bigsize/wu-sauvignon-blanc-375.jpg"><img src="/img/products/bigsize/wu-sauvignon-blanc-375.jpg" alt="" /></a>
-                                    <a class="fancybox" data-fancybox="gallery" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» Bag in Box 3 л." href="/img/products/bigsize/wu-sauvignon-blanc-bib.jpg"><img src="/img/products/bigsize/wu-sauvignon-blanc-bib.jpg" alt="" /></a>
+                                    <a class="fancybox" data-fancybox="wu-sauvignon-blanc" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» 0,375 л." href="/img/products/bigsize/wu-sauvignon-blanc-375.jpg"><img src="/img/products/bigsize/wu-sauvignon-blanc-375.jpg" alt="" /></a>
+                                    <a class="fancybox" data-fancybox="wu-sauvignon-blanc" rel="wu-sauvignon-blanc" title="Вино сухое белое «Прасковейское Совиньон Блан» Bag in Box 3 л." href="/img/products/bigsize/wu-sauvignon-blanc-bib.jpg"><img src="/img/products/bigsize/wu-sauvignon-blanc-bib.jpg" alt="" /></a>
                                  </div>
                               </div>
                               <div class="product-column right">
@@ -100,7 +100,7 @@
                                  <p class="product-parameters">3л; 0,75л; 0,375л./12-14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('bsovinon075',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -116,7 +116,7 @@
                                  <p class="product-parameters">0,75 л./12-14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('bchard075',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -132,7 +132,7 @@
                                  <p class="product-parameters">0,75 л./12-14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('muscat',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -149,7 +149,7 @@
                                  <p class="product-parameters">0,75 л./14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('blancbronzinelle',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -166,7 +166,7 @@
                                  <p class="product-parameters">0,75 л./14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('picpoul',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -174,9 +174,9 @@
                         <div class="product-info">
                            <div class="product-column_content">
                               <div class="product-column left">
-                                 <a class="fancybox" rel="sl-prestige-blanc" title="Вино сухое белое «Prestige» 0,75 л." href="/img/products/bigsize/sl-prestige-blanc.jpg"><img class="products-mini" src="/img/products/sl-prestige-blanc.png" alt=""></a>
+                                 <a class="fancybox" data-fancybox="Prestige-blanc" rel="sl-prestige-blanc" title="Вино сухое белое «Prestige» 0,75 л." href="/img/products/bigsize/sl-prestige-blanc.jpg"><img class="products-mini" src="/img/products/sl-prestige-blanc.png" alt=""></a>
                                  <div class="hidden">
-                                    <a class="fancybox" rel="sl-prestige-blanc" title="Вино сухое белое «Prestige» 5 л." href="/img/products/bigsize/sl-prestige-blanc-5.jpg"></a>
+                                    <a class="fancybox" data-fancybox="Prestige-blanc"  rel="sl-prestige-blanc" title="Вино сухое белое «Prestige» 5 л." href="/img/products/bigsize/sl-prestige-blanc-5.jpg"></a>
                                  </div>
                               </div>
                               <div class="product-column right">
@@ -186,7 +186,7 @@
                                  <p class="product-parameters">5 л; 0,75 л./13% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('prestigewhite',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -194,9 +194,9 @@
                         <div class="product-info">
                            <div class="product-column_content">
                               <div class="product-column left">
-                                 <a class="fancybox" rel="sl-vermentino-blanc" title="Вино сухое белое «Верментино» 0,75 л." href="/img/products/bigsize/sl-vermentino-blanc-075.jpg"><img class="products-mini" src="/img/products/sl-vermentino-blanc-075.png" alt=""></a>
+                                 <a class="fancybox"  data-fancybox="vermentino-blanc"  rel="sl-vermentino-blanc" title="Вино сухое белое «Верментино» 0,75 л." href="/img/products/bigsize/sl-vermentino-blanc-075.jpg"><img class="products-mini" src="/img/products/sl-vermentino-blanc-075.png" alt=""></a>
                                  <div class="hidden">
-                                    <a class="fancybox" rel="sl-vermentino-blanc" title="Вино сухое белое «Верментино» 0,375 л." href="/img/products/bigsize/sl-vermentino-blanc-375.jpg"></a>
+                                    <a class="fancybox" data-fancybox="vermentino-blanc" rel="sl-vermentino-blanc" title="Вино сухое белое «Верментино» 0,375 л." href="/img/products/bigsize/sl-vermentino-blanc-375.jpg"></a>
                                  </div>
                               </div>
                               <div class="product-column right">
@@ -205,7 +205,7 @@
                                  <p class="product-parameters">0,75; 0,375 л./13,5% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('slvermentino0375',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -221,7 +221,7 @@
                                  <p class="product-parameters">0,75 л./14% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smtraditionwhite',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -237,7 +237,7 @@
                                  <p class="product-parameters">0,75 л./11-13% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('muskatnoe075',5); ?></div>
                         </div>
                      </div>
                   </section>

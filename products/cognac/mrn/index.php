@@ -40,7 +40,7 @@
                                  <p class="product-parameters">0,5 л./40% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('stavropol',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -56,7 +56,7 @@
                                  <p class="product-parameters">0,7 л./40% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('kislovodsk',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -72,7 +72,7 @@
                                  <p class="product-parameters">0,7 л./40% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('ks',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -88,7 +88,7 @@
                                  <p class="product-parameters">0,7 л./40% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('os',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -104,7 +104,7 @@
                                  <p class="product-parameters">0,75 л./40% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('oscollection',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -120,7 +120,7 @@
                                  <p class="product-parameters">0,7 л./42% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('extra',5); ?></div>
                         </div>
                      </div>
                      <div class="product-box">
@@ -136,7 +136,7 @@
                                  <p class="product-parameters">0,7 л./40% об.</p>
                               </div>
                            </div>
-                           <div class="rpoduct-rating raiting"><?php echo rating_bar('smchardsauvignon',5); ?></div>
+                           <div class="rpoduct-rating raiting"><?php echo rating_bar('premium',5); ?></div>
                         </div>
                      </div>
                   </section>

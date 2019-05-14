@@ -31,16 +31,16 @@
                      </section>
                      <div class="gallery-slice grey">
                      <div class="left-column">
-                        <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_1.jpg"><img data-src="/img/museum/museum_main.jpg" alt="" src="/img/museum/museum_main.jpg" class="lazy-loaded"></a>
+                        <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_1.jpg"><img data-src="/img/museum/museum_main.jpg" alt="" src="/img/museum/museum_main.jpg" class="lazy-loaded"></a>
                         <div class="hidden">
-                           <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_2.jpg"></a>
-                           <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_3.jpg"></a>
-                           <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_4.jpg"></a>
-                           <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_5.jpg"></a>
-                           <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_6.jpg"></a>
-                           <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_7.jpg"></a>
-                           <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_8.jpg"></a>
-                           <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_9.jpg"></a>
+                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_2.jpg"></a>
+                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_3.jpg"></a>
+                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_4.jpg"></a>
+                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_5.jpg"></a>
+                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_6.jpg"></a>
+                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_7.jpg"></a>
+                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_8.jpg"></a>
+                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_9.jpg"></a>
                         </div>
                      </div>
                   </div>

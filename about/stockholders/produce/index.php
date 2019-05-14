@@ -248,7 +248,7 @@
                   </section>
                </div>
                <div class="col-lg-3">
-                  <?php include($_SERVER["DOCUMENT_ROOT"].'../data/aside.php'); ?>
+               <?php include($_SERVER["DOCUMENT_ROOT"].'/data/aside.php'); ?>
                </div>
             </div>
          </div>
