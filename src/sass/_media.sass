@@ -108,9 +108,10 @@
             text-align: center
     
     .product-column   
-        &.right 
+        &.right
+            margin-right: 0 
             .product-parameters
-                position: relative
+                position: relative               
         &.left
             a
                 padding-left: 30%
@@ -151,7 +152,7 @@
         width: 70%
     .article-content
         margin: 0
-        padding: 0
+        padding: 0 0 10px 0
         border: none
 
     .contacts_page            
@@ -168,7 +169,7 @@
  
 
 @include media-breakpoint-down(lg)
-    // lg: 1024px
+    // lg: 992px
     #navbarNavDropdown
         background-color: none
     

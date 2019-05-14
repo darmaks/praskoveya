@@ -9279,8 +9279,7 @@ p.h1-description {
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
+  padding-bottom: 63%;
   height: 0;
   overflow: hidden; }
 
@@ -9390,7 +9389,7 @@ aside {
 
 .about_museum .left-column img {
   border: 10px solid #fff;
-  width: 50%; }
+  width: 100%; }
 
 .link-list {
   width: 100%;
@@ -9573,7 +9572,8 @@ p.tel {
     display: block; }
 
 .product-column.right {
-  position: relative; }
+  position: relative;
+  margin-right: 20px; }
   .product-column.right .product-parameters {
     position: absolute;
     right: 0;
@@ -9676,9 +9676,6 @@ p.tel {
   margin-bottom: 5px;
   font-weight: 700; }
 
-.position-relative {
-  margin-left: 26px; }
-
 .form-group {
   margin-top: 1rem; }
 
@@ -9717,6 +9714,9 @@ p.tel {
 
 .ratingblock {
   margin: 20px 0; }
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #000; }
 
 footer {
   border-top: 10px solid #ccbd89;
@@ -9893,8 +9893,10 @@ footer {
     width: 60%; }
   .right .producer {
     text-align: center; }
-  .product-column.right .product-parameters {
-    position: relative; }
+  .product-column.right {
+    margin-right: 0; }
+    .product-column.right .product-parameters {
+      position: relative; }
   .product-column.left a {
     padding-left: 30%; }
   .aside-img {
@@ -9926,7 +9928,7 @@ footer {
     width: 70%; }
   .article-content {
     margin: 0;
-    padding: 0;
+    padding: 0 0 10px 0;
     border: none; }
   .contacts_page .row_contacts {
     display: block; }

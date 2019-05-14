@@ -1,3 +1,5 @@
+
+
 <?php include("../../includes/a_config.php");?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -28,12 +30,17 @@
                   <section class="primary">
                      <h4>Экскурсия</h4>
                      <p>Экскурсию проводит опытный гид, который ознакомит Вас с более, чем вековой историей знаменитого предприятия, проведет по старинным подвалам, хранящим на выдержке благородный напиток и поделится тайнами технологии производства.</p>
-                     </section>
-                     <div class="gallery-slice grey">
+                  </section>
+                  <div class="gallery-slice grey">
                      <div class="left-column">
-                        <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_1.jpg"><img data-src="/img/museum/museum_main.jpg" alt="" src="/img/museum/museum_main.jpg" class="lazy-loaded"></a>
-                        <div class="hidden">
-                           <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_2.jpg"></a>
+                        <a class="fancybox" rel="museum" title="Музей" href="/img/museum/museum_main.jpg">
+                        <img data-src="/img/museum/museum_main.jpg" alt="" src="/img/museum/museum_main.jpg" class="lazy-loaded"></a>  
+                     </div>
+                     <div class="right-column link-list">
+                        <ul>
+                           <li><a class="fancybox" data-fancybox="museum"  rel="history" title="История" href="/img/museum/museum_2.jpg">Фотогалерея</a></li>
+                        </ul>
+                        <div class="hidden"> 
                            <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_3.jpg"></a>
                            <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_4.jpg"></a>
                            <a class="fancybox" data-fancybox="museum" rel="museum" title="Музей" href="/img/museum/museum_5.jpg"></a>
@@ -44,7 +51,6 @@
                         </div>
                      </div>
                   </div>
-                  
                   <table>
                      <tbody>
                         <tr>
@@ -71,8 +77,8 @@
                      </tbody>
                   </table>
                   <article class="intro booking">
-                  <h2 class="article-heading">Бронирование</h2>
-                     <div class="museum_booking">                        
+                     <h2 class="article-heading">Бронирование</h2>
+                     <div class="museum_booking">
                         <div class="link-list">
                            <p>Забронировать посещение музея и задать вопросы Вы можете, связавшись с нами</p>
                         </div>
