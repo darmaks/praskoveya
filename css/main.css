@@ -9108,6 +9108,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: Georgia, serif, sans-serif;
+  font-display: fallback;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -9116,6 +9117,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: AgencyGothicCT-Medium;
+  font-display: fallback;
   background: url(../img/h2-styling.png) left bottom no-repeat;
   padding-bottom: 15px; }
 
@@ -9272,16 +9274,12 @@ p.h1-description {
 .intro {
   padding-left: 73px;
   padding-right: 50px; }
-  .intro iframe {
-    margin-top: 20px; }
-  .intro .article-heading {
-    padding-top: 30px; }
 
 .video-container {
   position: relative;
-  padding-bottom: 63%;
+  padding-bottom: 66%;
   height: 0;
-  overflow: hidden; }
+  margin: 30px 0 30px 0; }
 
 .video-container iframe,
 .video-container object,
@@ -9527,6 +9525,12 @@ table tr td:first-child {
   line-height: 35px;
   vertical-align: top; }
 
+.stock-slice {
+  padding: 0px 0px 45px 0;
+  background: url(/img/backgrounds/common-shadow.png) bottom repeat-x;
+  position: relative;
+  margin-top: 30px; }
+
 p.tel {
   font-size: 24px; }
 
@@ -9676,6 +9680,9 @@ p.tel {
   margin-bottom: 5px;
   font-weight: 700; }
 
+.about_shops .form-group {
+  margin-right: 65%; }
+
 .form-group {
   margin-top: 1rem; }
 
@@ -9814,16 +9821,22 @@ footer {
     margin-top: 0; }
   .link-list-tel {
     padding-left: 1%; }
+    .link-list-tel .email {
+      padding-bottom: 20px; }
   table {
     margin-left: 0; }
-  p.tel {
-    font-size: 18px; }
+  .museum_booking {
+    display: block; }
+    .museum_booking .link-list {
+      width: 100%; }
   table td span {
     display: block;
     font-weight: 700;
     padding: 0px 0px 0 5px; }
   table th {
     padding-left: 15px; }
+  table tr td:first-child {
+    width: 60%; }
   .stock-slice h4 {
     margin-left: 15px; }
   .about_museum .primary {
@@ -9832,7 +9845,9 @@ footer {
     display: block;
     padding-left: 0; }
   .map-responsive {
-    padding-bottom: 86.25%; } }
+    padding-bottom: 86.25%; }
+  .about_shops .form-group {
+    margin-right: 31%; } }
 
 @media (max-width: 767.98px) {
   p.h1-description {
@@ -9900,7 +9915,11 @@ footer {
   .product-column.left a {
     padding-left: 30%; }
   .aside-img {
-    width: 37%; } }
+    width: 37%; }
+  .header-block-h3 {
+    padding-left: 20px; }
+  .about_shops .form-group {
+    margin-right: 50%; } }
 
 @media (max-width: 1023.98px) {
   .navbar {

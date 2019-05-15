@@ -51,6 +51,7 @@
                         </div>
                      </div>
                   </div>
+                  <div class="stock-slice">
                   <table>
                      <tbody>
                         <tr>
@@ -76,6 +77,7 @@
                         </tr>
                      </tbody>
                   </table>
+                  </div>
                   <article class="intro booking">
                      <h2 class="article-heading">Бронирование</h2>
                      <div class="museum_booking">
