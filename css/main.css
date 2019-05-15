@@ -9725,6 +9725,17 @@ p.tel {
 .dropdown-item:hover, .dropdown-item:focus {
   background-color: #000; }
 
+.navbar-toggler-icon {
+  width: 100%; }
+  .navbar-toggler-icon i {
+    margin-right: 5px; }
+
+.nav-link .fas {
+  margin-left: 10px; }
+
+.dropdown-submenu .fas {
+  margin-left: 10px; }
+
 footer {
   border-top: 10px solid #ccbd89;
   border-bottom: 10px solid #1e1e1e;
@@ -9827,8 +9838,9 @@ footer {
     margin-left: 0; }
   .museum_booking {
     display: block; }
-    .museum_booking .link-list {
-      width: 100%; }
+  .link-list {
+    width: 100%;
+    margin-bottom: 20px; }
   table td span {
     display: block;
     font-weight: 700;
