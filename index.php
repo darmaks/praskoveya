@@ -52,8 +52,10 @@
                                     }
                             ?>
                             лет прасковейские мастера держат марку, производя алкогольную продукцию неизменно высокого качества.</p>
-                            <div class="video-container">
-                                <iframe width="597" height="315" src="https://www.youtube.com/embed/_a7Wtyyc-u8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <div class="youtube-wrapper">
+                                <div class="youtube" data-embed="_a7Wtyyc-u8">
+                                    <div class="play-button"></div>
+                                </div>
                             </div>
                     </article>
                     <section class="primary">
