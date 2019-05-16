@@ -59,7 +59,7 @@
                     <section class="primary">
                         <h3>От прошлого к будущему</h3>
                         <div class="full-image-slice">
-                            <img src="/img/main/praskoveya-yard.jpg" alt="">
+                            <img class="lazy" data-src="/img/main/praskoveya-yard.jpg" alt="">
                         </div>
                         <div class="article-info-wrapper">
                             <p class="article-section-info">
@@ -70,7 +70,7 @@
                     <section class="primary">
                         <h3>Коньяки Прасковеи</h3>
                         <div class="full-image-slice">
-                            <img src="/img/main/praskoveya-cognac.jpg" alt="" />
+                            <img class="lazy" data-src="/img/main/praskoveya-cognac.jpg" alt="" />
                         </div>
                         <div class="article-info-wrapper">
                             <p class="article-section-info"><a href="/about/winerys/#praskoveya">Предприятие</a> специализируется на производстве высококачественных коньяков и крепких виноградных напитков. Дистилляция и выдержка спиртов проходят под контролем профессионалов в строгом соответствии с ГОСТ. Знание современных технологий и более полувековой опыт производства позволяют продукции АО&nbsp«Прасковейское» конкурировать с лучшими коньяками мира.</p>
@@ -79,7 +79,7 @@
                     <section class="primary">
                         <h3>Расширяем границы</h3>
                         <div class="full-image-slice">
-                            <img src="/img/main/praskoveya-europe.jpg" alt="" />
+                            <img class="lazy" data-src="/img/main/praskoveya-europe.jpg" alt="" />
                         </div>
                         <div class="article-info-wrapper">
                             <p class="article-section-info">АО «Прасковейское» имеет собственные предприятия в <a href="/about/winerys/#wine-union">Болгарии</a> и на юге <a href="/about/winerys/#st-martin">Франции</a>, с модернизированными заводами и землями с виноградниками. Процесс производства проходит в соответствии с жесткими технологическими требованиями, едиными для всех предприятий компании.</p>

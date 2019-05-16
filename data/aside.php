@@ -7,7 +7,7 @@ $novelties_1 = '<div class="aside-slice newest-item">
                     </p>
                     <p class="newest-image">
                         <a href="/products/wine/collection/">
-                            <img class="aside-img" src="/img/aside/aside-new-products-8.jpg" alt="" />
+                            <img class="aside-img lazy" data-src="/img/aside/aside-new-products-8.jpg" alt="" />
                         </a>
                     </p>
                 </div>';
@@ -19,7 +19,7 @@ $novelties_2 = '<div class="aside-slice newest-item">
                     </p>
                     <p class="newest-image">
                         <a href="/products/cognac/mrn/">
-                            <img class="aside-img" src="/img/aside/aside-new-products-9.jpg" alt="" />
+                            <img class="aside-img lazy" data-src="/img/aside/aside-new-products-9.jpg" alt="" />
                         </a>
                     </p>
                 </div>';
@@ -32,7 +32,7 @@ $novelties_3 = '<div class="aside-slice newest-item">
                     </p>
                     <p class="newest-image">
                         <a href="/products/wine/sparkling/">
-                            <img class="aside-img" src="/img/aside/aside-new-products-10.jpg" alt="" />
+                            <img class="aside-img lazy" data-src="/img/aside/aside-new-products-10.jpg" alt="" />
                         </a>
                     </p>
                 </div>';
@@ -44,7 +44,7 @@ $novelties_4 = '<div class="aside-slice newest-item">
                     </p>
                     <p class="newest-image">
                         <a href="/products/cognac/ordin/">
-                            <img class="aside-img" src="/img/aside/aside-new-products-13.jpg" alt="" />
+                            <img class="aside-img lazy" data-src="/img/aside/aside-new-products-13.jpg" alt="" />
                         </a>
                     </p>
                 </div>';
@@ -56,7 +56,7 @@ $novelties_5 = '<div class="aside-slice newest-item">
                     </p>
                     <p class="newest-image">
                         <a href="/products/cognac/ordin/">
-                            <img class="aside-img" src="/img/aside/aside-new-products-14.jpg" alt="" />
+                            <img class="aside-img lazy" data-src="/img/aside/aside-new-products-14.jpg" alt="" />
                         </a>
                     </p>
                 </div>';
