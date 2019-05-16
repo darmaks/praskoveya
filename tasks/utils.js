@@ -1,4 +1,4 @@
-const { src, dest } = require('gulp');
+const { src, dest, parallel } = require('gulp');
 const del = require("del");
 const paths = require('./paths');
 
@@ -16,7 +16,28 @@ function cleanBuild(cb) {
 	});
 }
 
+function cleanCssFolder(cb) {
+	return del('./css').then(() => {
+		cb();
+	});
+}
+
+function cleanJsFolder(cb) {
+	return del('./js').then(() => {
+		cb();
+	});
+}
+
+function cleanImgFolder(cb) {
+	return del('./img').then(() => {
+		cb();
+	});
+}
+
+const cleanForBuild = parallel(cleanCssFolder, cleanImgFolder, cleanJsFolder) 
+
 module.exports = {
 	cleanBuild,
-	cleanDev
+	cleanDev,
+	cleanForBuild
 };

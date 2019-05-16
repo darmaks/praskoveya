@@ -25,9 +25,17 @@ function jsDev() {
 }
 
 function jsBuild() {
-	return src(paths.devDir + paths.staticDir + '/js/*.js')
+	const jsPaths = [
+		paths.srcJs + '/framework/**/*.js',
+		paths.srcJs + '/libraries/**/*.js',
+		paths.srcJs + '/plugins/**/*.js',
+		paths.srcJs + '/*.js'
+	];
+
+	return src(jsPaths)
+		.pipe(concat('main.js'))
 		.pipe(uglify())
-		.pipe(dest( paths.buildDir + paths.staticDir + '/js'));
+		.pipe(dest( paths.devDir + paths.staticDir + '/js'));
 }
 
 const jsDevTask = jsDev;

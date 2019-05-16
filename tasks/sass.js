@@ -41,13 +41,27 @@ function cssDev(){
 }
 
 function cssBuild(){
-	return src( paths.devDir + paths.staticDir + '/css/*.css')
+	return src('./src/sass/main.sass')
+		.pipe(sass().on('error', sass.logError))
+		.pipe(autoprefixer({
+			browsers: [
+				'Android 2.3',
+				'Android >= 4',
+				'Chrome >= 20',
+				'Firefox >= 24', // Firefox 24 is the latest ESR
+				'Explorer >= 8',
+				'iOS >= 6',
+				'Opera >= 12',
+				'Safari >= 6'
+			],
+			cascade: false
+		}))
 		.pipe(csso({
 			restructure: false,
 			sourceMap: false,
 			debug: true
 		}))
-		.pipe(dest(paths.buildDir + paths.staticDir + '/css'));
+		.pipe(dest(paths.devDir + paths.staticDir + '/css'));
 }
 
 const cssDevTask = series(cleanCss, cssDev); 

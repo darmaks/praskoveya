@@ -1,7 +1,7 @@
 // global paths constants
 const paths = {
 	devDir: ".",
-	buildDir: "./build",
+	buildDir: ".",
 	srcSass: "./src/sass",
 	//srcJs: './static/js',
 	srcJs: './src/js',

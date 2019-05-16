@@ -13,7 +13,7 @@ function svgDev(){
 }
 
 function imagesBuild(){
-	return src(paths.srcImages + '/*.*')
+	return src(paths.srcImages + '/**/*.*')
 		.pipe(image())
 		.pipe(dest(paths.buildDir + paths.staticDir + '/img'));
 }
@@ -27,7 +27,7 @@ function svgBuild(){
 }
 
 const imagesDevTask = parallel(imagesDev, svgDev);
-const imagesBuildTask = parallel(imagesBuild, svgBuild);
+const imagesBuildTask = parallel(imagesBuild);
 
 
 module.exports = {
