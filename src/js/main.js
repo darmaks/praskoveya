@@ -181,6 +181,26 @@ $( document ).ready(function(){
     };
     
   } )();
+
+
+  $('.map').on('click mouseover', function(e){
+
+    var iframe = document.createElement( "iframe" );
+  
+    iframe.setAttribute( "width", "597" );
+    iframe.setAttribute( "height", "350" );
+    iframe.setAttribute( "frameborder", "0" );
+    iframe.setAttribute( "style", "border: 0" );
+    iframe.setAttribute( "class", "maps_contacts" );
+    iframe.setAttribute( "src", "https://www.google.ru/maps/embed?pb=!1m18!1m12!1m3!1d2922752.171246901!2d44.62295477449616!3d44.32536336041898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4055d687d3b834f1%3A0x3f7dff86109312b4!2sPraskoveya!5e0!3m2!1sen!2s!4v1399270097187" );
+
+    this.innerHTML = "";
+    this.appendChild( iframe );
+       
+    
+    $('.map').off('click mouseover');
+
+  })
 });
 
 
