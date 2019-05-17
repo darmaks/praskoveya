@@ -34,7 +34,11 @@ function cleanImgFolder(cb) {
 	});
 }
 
-const cleanForBuild = parallel(cleanCssFolder, cleanImgFolder, cleanJsFolder) 
+const cleanForBuild = parallel(
+	cleanCssFolder, 
+	//cleanImgFolder,
+	cleanJsFolder
+); 
 
 module.exports = {
 	cleanBuild,

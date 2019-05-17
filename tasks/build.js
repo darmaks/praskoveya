@@ -12,7 +12,7 @@ const { serveBuild } = require('./serve');
 module.exports = series(
     cleanForBuild,
     parallel(
-        imagesBuildTask,
+        //imagesBuildTask,
         cssBuildTask,
         jsBuildTask
     )

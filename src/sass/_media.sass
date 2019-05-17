@@ -49,6 +49,12 @@
     .about_shops
         .form-group
             margin-right: 31%
+   
+    .youtube-wrapper
+        margin: 0
+        padding: 0
+
+    
        
 
 
@@ -139,12 +145,29 @@
         .form-group 
             margin-right: 50%
     
+    .card-body
+        padding-left: 20px
+
+    .primary
+        .full-image-slice
+            padding: 15px
+    
+    .youtube-wrapper    
+        padding:
+            left: 0
+            right: 0
+
+    
+@include media-breakpoint-up(sm)
+    
+    
         
 @include media-breakpoint-up(md)
     // 123
+   
 
 
-@include media-breakpoint-down(md)
+@include media-breakpoint-up(md)
     // md: 768px
     .navbar
         margin-top: 72px
@@ -165,8 +188,6 @@
             padding-left: 15px
             padding-top: 20px
             padding-bottom: 20px
-        .full-image-slice
-            padding: 15px
         .article-info-wrapper
             padding-left: 15px
     .right-column
@@ -188,6 +209,13 @@
     .awards-slice
         justify-content: space-around
     
+    
+    .youtube-wrapper    
+        max-width: 680px
+        padding:
+            left: 60px
+            right: 30px
+
     
  
 

@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="sub-header">
-                <h1>Прасковейский<br>завод</h1>
+                <h1>Прасковейский<br>винзавод</h1>
             </div>
         </div>
     </div>
@@ -25,8 +25,8 @@
                         </p>
 
                         <h2 class="article-heading">Традиции качества</h2>
-                        <p class="article-content">Уже более 					
-                            <?php
+                        <p class="article-content">Уже более 120
+                            <!-- <?php
                                 if ( date('n') == 5 )
                                     {
                                         if( date('j') < 15 )
@@ -50,7 +50,7 @@
                                         $age = date('Y') - 1898 - 1;
                                         echo $age;
                                     }
-                            ?>
+                            ?>-->
                             лет прасковейские мастера держат марку, производя алкогольную продукцию неизменно высокого качества.</p>
                             <div class="youtube-wrapper">
                                 <div class="youtube" data-embed="_a7Wtyyc-u8">

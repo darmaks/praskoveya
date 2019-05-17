@@ -9,7 +9,19 @@
          <div class="col-12 col-sm-8 col-md-9 col-lg-8 main-menu">
             <nav class="navbar navbar-expand-md justify-content-end" id="main_navbar">
                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
-                  <span class="navbar-toggler-icon">Меню</span>
+                  <span class="navbar-toggler-icon ">
+                  <input type="checkbox" id="checkbox1" class="checkbox1 visuallyHidden">
+       
+                  <label for="checkbox1">
+                        <div class="hamburger hamburger1">
+                           <span class="bar bar1"></span>
+                           <span class="bar bar2"></span>
+                           <span class="bar bar3"></span>
+                           <span class="bar bar4"></span>
+                        </div>
+                  </label>
+                  <p>Меню</p></span>
+                  
                </button>
                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
