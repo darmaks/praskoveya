@@ -147,15 +147,16 @@
     
     .card-body
         padding-left: 20px
-
-    .primary
-        .full-image-slice
-            padding: 15px
     
-    .youtube-wrapper    
+    .youtube-wrapper  
+        min-width: 100%  
         padding:
             left: 0
             right: 0
+
+    .primary
+        .full-image-slice
+            padding: 0
 
     
 @include media-breakpoint-up(sm)
@@ -167,7 +168,7 @@
    
 
 
-@include media-breakpoint-up(md)
+@include media-breakpoint-down(md)
     // md: 768px
     .navbar
         margin-top: 72px
