@@ -9201,6 +9201,10 @@ p {
   top: 0;
   left: 100%; }
 
+@media (min-width: 768px) {
+  .dropdown-toggle:after {
+    display: none; } }
+
 .hidden {
   display: none; }
 
@@ -10073,12 +10077,8 @@ footer {
     margin-right: 50%; }
   .card-body {
     padding-left: 20px; }
-  .youtube-wrapper {
-    min-width: 100%;
-    padding-left: 0;
-    padding-right: 0; }
   .primary .full-image-slice {
-    padding: 0; } }
+    padding: 20px; } }
 
 @media (max-width: 1023.98px) {
   .navbar {
@@ -10117,10 +10117,10 @@ footer {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
-  .youtube-wrapper {
-    max-width: 680px;
-    padding-left: 60px;
-    padding-right: 30px; } }
+  .primary .full-image-slice {
+    padding-left: 20px; }
+    .primary .full-image-slice img {
+      min-width: 100%; } }
 
 #navbarNavDropdown {
   background-color: none; }
