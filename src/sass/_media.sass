@@ -154,15 +154,12 @@
     //         left: 0
     //         right: 0
 
-    .primary
-        .full-image-slice
-            padding: 20px
+    
         
     .link-list-tel
         margin-left: 0
     
-    .row_contacts .data
-        padding-left: 0
+    
  
 
 
@@ -220,9 +217,15 @@
         text-align: center
         img
             margin: 20px 0 0 0
-
     
- 
+    .row_contacts
+        .data
+            padding-left: 0
+
+    .youtube-wrapper
+        padding-left: 0
+        padding-right: 0
+
 
 @include media-breakpoint-down(lg)
     // lg: 992px
@@ -231,11 +234,21 @@
     
     .link-list
         padding-left: 0
-    
+
+    .primary        
+        .full-image-slice
+            padding: 20px
+            img
+                min-width: 100%
+  
 
 
-@include media-breakpoint-down(xl)
-    // 123
+@include media-breakpoint-up(lg)
+    .primary        
+        .full-image-slice
+            padding: 20px 50px 20px 73px
+            img
+                max-width: 100%
 
 
 @include media-breakpoint-only(xs)
