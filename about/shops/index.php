@@ -32,11 +32,11 @@
                      <div class="form-group">
                         <label for="sel1">Выберите регион</label>
                         <select class="form-control" id="regions">
-                           <option value="r77" selected="selected">Москва</option>
+                           <option value="r77">Москва</option>
                            <option value="r50">Московская область </option>
                            <option value="r52">Нижегородская область </option>
                            <option value="r61">Ростовская область </option>
-                           <option value="r26">Ставропольский край</option>
+                           <option value="r26" selected="selected">Ставропольский край</option>
                         </select>
                      </div>
                   </section>
